@@ -6,10 +6,34 @@ function ContactForm() {
       <div className={style.contact__form__container}>
         <form>
           <h2>Llámanos o escríbenos</h2>
-          <input type="text" placeholder="Nombre" />
-          <input type="tel" name="tel" id="tel" placeholder="Celular" />
-          <input type="email" placeholder="Correo" />
-          <input type="text" placeholder="Que Producto te Interesa?"></input>
+          <input
+            type="text"
+            placeholder="Nombre"
+            onFocus={(e) => (e.target.placeholder = "")}
+            onBlur={(e) => (e.target.placeholder = "Nombre")}
+          />
+          <input
+            type="tel"
+            name="tel"
+            id="tel"
+            placeholder="Celular"
+            onFocus={(e) => (e.target.placeholder = "")}
+            onBlur={(e) => (e.target.placeholder = "Celular")}
+          />
+          <input
+            type="email"
+            placeholder="Correo"
+            onFocus={(e) => (e.target.placeholder = "")}
+            onBlur={(e) => (e.target.placeholder = "Correo")}
+          />
+          <input
+            type="text"
+            placeholder="¿Que Producto te Interesa?"
+            onFocus={(e) => (e.target.placeholder = "")}
+            onBlur={(e) =>
+              (e.target.placeholder = "¿Que Producto te Interesa?")
+            }
+          ></input>
           <button type="submit">Enviar</button>
         </form>
         <div className={style.contact__texts}>

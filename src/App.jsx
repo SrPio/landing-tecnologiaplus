@@ -6,6 +6,9 @@ import ProductsSection from "./components/ProductsSection/ProductsSection";
 import BenefitsSection from "./components/BenefitsSection/BenefitsSection";
 import TechnicalDetails from "./components/TechnicalDetails/TechnicalDetails";
 import IndustriesSection from "./components/IndustriesSection/IndustriesSection";
+import RelatedProducts from "./components/RelatedProducts/RelatedProducts";
+import ContactForm from "./components/ContactForm/ContactForm";
+import Footer from "./components/Footer/Footer";
 import "./styles/main.scss";
 
 function App() {
@@ -18,6 +21,9 @@ function App() {
       <BenefitsSection />
       <TechnicalDetails />
       <IndustriesSection />
+      <RelatedProducts />
+      <ContactForm />
+      <Footer />
     </>
   );
 }

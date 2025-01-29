@@ -18,8 +18,17 @@
 
   .clients__container {
     height: 150px;
-    width: 60%;
-    border: #606060 1px solid;
-    margin: 4rem 0;
+    width: 70%;
+    margin: 1rem 0;
+
+    display: flex;
+    gap: 4rem;
+    justify-content: space-around;
+
+    img {
+      height: 150px;
+      object-fit: contain;
+      aspect-ratio: 1;
+    }
   }
 }

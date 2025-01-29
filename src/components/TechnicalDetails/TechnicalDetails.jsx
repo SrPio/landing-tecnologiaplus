@@ -5,6 +5,7 @@ function TechnicalDetails() {
     <section className={style.technical__details}>
       <div className={style.technical__carousel__container}>
         <img
+          loading="lazy"
           src="https://res.cloudinary.com/dckxydnei/image/upload/v1738089023/RollosPruebaTecnica/w95mg3v5l3rz4s634bso.webp"
           alt="imagen de ficha de fila"
         />
@@ -23,6 +24,7 @@ function TechnicalDetails() {
           <ul>
             <li>
               <img
+                loading="lazy"
                 src="https://res.cloudinary.com/dckxydnei/image/upload/v1738089022/RollosPruebaTecnica/uq6mantgalzbg1cwabg2.webp"
                 alt="icono de papel"
               />
@@ -34,6 +36,7 @@ function TechnicalDetails() {
             </li>
             <li>
               <img
+                loading="lazy"
                 src="https://res.cloudinary.com/dckxydnei/image/upload/v1738089022/RollosPruebaTecnica/mfucx7jyhfttrhehhv6f.webp"
                 alt="icono de rollos"
               />
@@ -45,6 +48,7 @@ function TechnicalDetails() {
             </li>
             <li>
               <img
+                loading="lazy"
                 src="https://res.cloudinary.com/dckxydnei/image/upload/v1738089022/RollosPruebaTecnica/mklyxhubukpeobmbjxso.webp"
                 alt="icono de impresora"
               />
@@ -56,6 +60,7 @@ function TechnicalDetails() {
             </li>
             <li>
               <img
+                loading="lazy"
                 src="https://res.cloudinary.com/dckxydnei/image/upload/v1738089022/RollosPruebaTecnica/jacnophczhcmtv5jmrmt.webp"
                 alt="icono de check"
               />

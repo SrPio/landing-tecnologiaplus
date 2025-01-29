@@ -7,6 +7,7 @@ function HeroSection() {
       <Header />
       <div className={styles.hero__content}>
         <img
+          loading="lazy"
           className={styles.hero__img}
           src="https://res.cloudinary.com/dckxydnei/image/upload/v1738089024/RollosPruebaTecnica/tiuyfgrjwlmhj4gdzrtm.webp"
           alt="imagen de rollos para impresora"

@@ -12,6 +12,7 @@ function Header() {
       </div>
       <a href="#" className={styles.logo__container}>
         <img
+          loading="lazy"
           className={styles.logo}
           src="https://res.cloudinary.com/dckxydnei/image/upload/v1738092559/Logo_Tecnolog%C3%ADa_Plus_2024_cyahos.svg"
           alt="logo Tecnología plus"

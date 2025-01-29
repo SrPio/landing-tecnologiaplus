@@ -11,6 +11,7 @@ function RelatedProducts() {
               <p>Descripción pequeña aquí</p>
             </div>
             <img
+              loading="lazy"
               src="https://res.cloudinary.com/dckxydnei/image/upload/v1738120517/TurnoMaster_2x-8_1_t4wh3f.webp"
               alt="imagen de TurnoMaster"
             />
@@ -26,6 +27,7 @@ function RelatedProducts() {
               <p>Descripción pequeña aquí</p>
             </div>
             <img
+              loading="lazy"
               src="https://res.cloudinary.com/dckxydnei/image/upload/v1738120511/TurnoExpress_2x-8_1_hzrwei.webp"
               alt="imagen de TurnoExpress"
             />
@@ -41,6 +43,7 @@ function RelatedProducts() {
               <p>Descripción pequeña aquí</p>
             </div>
             <img
+              loading="lazy"
               src="https://res.cloudinary.com/dckxydnei/image/upload/v1738089022/RollosPruebaTecnica/vrshbuavglhjzjks2tbv.webp"
               alt="imagen de Dispensador de tiquetes"
             />
@@ -54,6 +57,7 @@ function RelatedProducts() {
         <ul>
           <li>
             <img
+              loading="lazy"
               src="https://res.cloudinary.com/dckxydnei/image/upload/v1738089023/RollosPruebaTecnica/xcbtnf1wh1en4taujsdx.webp"
               alt="icono pulgar arriba"
             />
@@ -61,6 +65,7 @@ function RelatedProducts() {
           </li>
           <li>
             <img
+              loading="lazy"
               src="https://res.cloudinary.com/dckxydnei/image/upload/v1738089023/RollosPruebaTecnica/zpyfcqvsxo6wdubn2kdu.webp"
               alt="icono de seguridad"
             />
@@ -68,6 +73,7 @@ function RelatedProducts() {
           </li>
           <li>
             <img
+              loading="lazy"
               src="https://res.cloudinary.com/dckxydnei/image/upload/v1738089023/RollosPruebaTecnica/jg3stajnopybox4xxdkd.webp"
               alt="icono de excelencia"
             />
@@ -75,6 +81,7 @@ function RelatedProducts() {
           </li>
           <li>
             <img
+              loading="lazy"
               src="https://res.cloudinary.com/dckxydnei/image/upload/v1738089023/RollosPruebaTecnica/ynuxn64wkw3nkqxl4tvo.webp"
               alt="icono de envíos a todo el país"
             />

@@ -6,10 +6,12 @@ function ProductsSection() {
       <h2 className={style.products__title}>Rollos para impresora térmica</h2>
       <div className={style.products__container}>
         <img
+          loading="lazy"
           src="https://res.cloudinary.com/dckxydnei/image/upload/v1738106572/image-1_1_ljyxis.webp"
           alt="Rollos de impresión"
         />
         <img
+          loading="lazy"
           src="https://res.cloudinary.com/dckxydnei/image/upload/v1738106457/Recurso-13_2x-8_1_suitny.webp"
           alt="Imagen de Impresora"
         />

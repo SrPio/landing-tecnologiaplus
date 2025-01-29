@@ -56,6 +56,7 @@ function Footer() {
           <ul>
             <li>
               <img
+        loading="lazy"
                 src="https://res.cloudinary.com/dckxydnei/image/upload/v1738128342/colombia_1_mcsiuu.png"
                 alt="bandera de colombia"
               />
@@ -68,6 +69,7 @@ function Footer() {
           <ul>
             <li>
               <img
+        loading="lazy"
                 src="https://res.cloudinary.com/dckxydnei/image/upload/v1738128406/peru_myylpq.png"
                 alt="bandera de peru"
               />
@@ -83,12 +85,14 @@ function Footer() {
       </div>
       <div className={style.footer__bottom}>
         <img
+        loading="lazy"
           src="https://res.cloudinary.com/dckxydnei/image/upload/v1738127256/Captura-de-pantalla-2025-01-29-000613_1_oxgzf9.webp"
           alt="logo de Tecnología Plus"
         />
       </div> */}
 
       <img
+        loading="lazy"
         className={style.footer__img__provicional}
         src="https://res.cloudinary.com/dckxydnei/image/upload/v1738129271/Captura_de_pantalla_2025-01-29_004021_amttbj.png"
         alt="footer"

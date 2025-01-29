@@ -7,6 +7,7 @@ function IndustriesSection() {
       <ul>
         <li>
           <img
+            loading="lazy"
             src="https://res.cloudinary.com/dckxydnei/image/upload/v1738089023/RollosPruebaTecnica/i7kjrc8clsir0yjklhqg.webp"
             alt="icono de salud"
           />
@@ -14,6 +15,7 @@ function IndustriesSection() {
         </li>
         <li>
           <img
+            loading="lazy"
             src="https://res.cloudinary.com/dckxydnei/image/upload/v1738089022/RollosPruebaTecnica/h2wnutneinlzk5arrt5o.webp"
             alt="icono de oficina"
           />
@@ -21,6 +23,7 @@ function IndustriesSection() {
         </li>
         <li>
           <img
+            loading="lazy"
             src="https://res.cloudinary.com/dckxydnei/image/upload/v1738089023/RollosPruebaTecnica/bk8jttrreuotq36ed4az.webp"
             alt="icono de otras industrias"
           />

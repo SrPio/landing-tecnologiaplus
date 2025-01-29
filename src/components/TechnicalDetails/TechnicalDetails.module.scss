@@ -14,7 +14,7 @@
   .TechnicalDetails__container {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: center;
 
     .technical__textContainer {
       h2 {
@@ -83,6 +83,7 @@
     }
 
     .technical__details__btn {
+      margin-top: 2rem;
       cursor: pointer;
       width: max-content;
       font-weight: 600;

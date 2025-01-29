@@ -1,18 +1,17 @@
 import style from "./Footer.module.scss";
+import React from "react";
 import { FiInstagram } from "react-icons/fi";
-import { FaTiktok } from "react-icons/fa";
-import { FaFacebookF } from "react-icons/fa";
-import { FaYoutube } from "react-icons/fa";
+import { FaTiktok, FaFacebookF, FaYoutube } from "react-icons/fa";
 import { MdOutlineEmail } from "react-icons/md";
-import { HiPhone } from "react-icons/hi2";
+import { HiPhone } from "react-icons/hi";
 
-function Footer() {
+const Footer = () => {
   return (
-    <footer className={style.footer}>
-      {/* <div className={style.footer__top}>
-        <div>
-          <h3>Siguenos</h3>
-          <ul className={style.footer__social}>
+    <footer className="footer">
+      <div className="footer__top">
+        <div className="footer__section">
+          <h3>Síguenos</h3>
+          <ul className="footer__social">
             <li>
               <FiInstagram />
             </li>
@@ -27,51 +26,39 @@ function Footer() {
             </li>
           </ul>
         </div>
-        <div>
+        <div className="footer__section">
           <h3>Contacto</h3>
           <ul>
             <li>
-              <a href="">
-                <MdOutlineEmail />
-                ventas@tecnologiaplus.com
-              </a>
+              <MdOutlineEmail /> ventas@tecnologiaplus.com
             </li>
             <li>
-              <a href="">
-                <HiPhone />
-                (+57) 322 734 79 71
-              </a>
+              <HiPhone /> (+57) 322 734 79 71
             </li>
             <li>
-              <a href="">
-                <HiPhone />
-                (+57) 316 692 38 27
-              </a>
+              <HiPhone /> (+57) 316 692 38 27
             </li>
           </ul>
         </div>
-        <div>
+        <div className="footer__section">
           <h3>Estamos en</h3>
-
           <ul>
             <li>
               <img
-        loading="lazy"
                 src="https://res.cloudinary.com/dckxydnei/image/upload/v1738128342/colombia_1_mcsiuu.png"
-                alt="bandera de colombia"
+                alt="Colombia"
               />
               Colombia
             </li>
             <li>Bogotá • Av. Cra 30#75-61 Oficina 510.</li>
-            <li>Medellín • EI Poblado edificio oceanía.</li>
+            <li>Medellín • El Poblado edificio Oceanía.</li>
             <li>Cobertura nacional</li>
           </ul>
           <ul>
             <li>
               <img
-        loading="lazy"
                 src="https://res.cloudinary.com/dckxydnei/image/upload/v1738128406/peru_myylpq.png"
-                alt="bandera de peru"
+                alt="Perú"
               />
               Perú
             </li>
@@ -79,26 +66,15 @@ function Footer() {
             <li>Envíos a toda Latinoamérica</li>
           </ul>
         </div>
-        <div>
-          <h3></h3>
-        </div>
       </div>
-      <div className={style.footer__bottom}>
+      <div className="footer__bottom">
         <img
-        loading="lazy"
           src="https://res.cloudinary.com/dckxydnei/image/upload/v1738127256/Captura-de-pantalla-2025-01-29-000613_1_oxgzf9.webp"
-          alt="logo de Tecnología Plus"
+          alt="Tecnología Plus"
         />
-      </div> */}
-
-      <img
-        loading="lazy"
-        className={style.footer__img__provicional}
-        src="https://res.cloudinary.com/dckxydnei/image/upload/v1738129271/Captura_de_pantalla_2025-01-29_004021_amttbj.png"
-        alt="footer"
-      />
+      </div>
     </footer>
   );
-}
+};
 
 export default Footer;

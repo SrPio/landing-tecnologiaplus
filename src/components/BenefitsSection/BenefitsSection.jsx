@@ -23,7 +23,9 @@ function BenefitsSection() {
             src="https://res.cloudinary.com/dckxydnei/image/upload/v1738089022/RollosPruebaTecnica/za4ik6yfenohf4oquc0j.webp"
             alt="icono de calendario"
           />
-          Durabilidad a largo plazo y rendimiento confiable.
+          Durabilidad a largo plazo y
+          <br />
+          rendimiento confiable.
         </li>
         <li>
           <img
@@ -31,7 +33,9 @@ function BenefitsSection() {
             src="https://res.cloudinary.com/dckxydnei/image/upload/v1738089022/RollosPruebaTecnica/u2v3b0ngu177bi5byxcv.webp"
             alt="icono check"
           />
-          Alta compatibilidad con impresoras térmicas.
+          Alta compatibilidad con
+          <br />
+          impresoras térmicas.
         </li>
       </ul>
     </section>

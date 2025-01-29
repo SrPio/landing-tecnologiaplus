@@ -1,5 +1,5 @@
 import styles from "./HeroSection.module.scss";
-import Header from "../Header/Header";
+import Header from "../../../components/Header/Header";
 
 function HeroSection() {
   return (

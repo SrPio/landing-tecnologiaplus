@@ -1,0 +1,53 @@
+.benefits__section {
+  background-image: url("https://res.cloudinary.com/dckxydnei/image/upload/v1738089023/RollosPruebaTecnica/nisgh2gbe0ginddnsrko.webp");
+  background-size: cover;
+  background-position: center;
+  padding: 4rem;
+  margin: -100px 5% 0;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 4rem;
+
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+
+  .benefits__title {
+    background: linear-gradient(to right, #00afff, #9810ff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: inline-block;
+
+    width: 50%;
+
+    font-size: 4rem;
+    line-height: 1.2;
+    font-weight: 900;
+    text-align: center;
+  }
+
+  ul {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    li {
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+      gap: 2rem;
+
+      font-weight: 400;
+      color: #fff;
+      font-size: 2rem;
+      line-height: 1.2;
+      img {
+        width: 70px;
+        object-fit: contain;
+      }
+    }
+  }
+}

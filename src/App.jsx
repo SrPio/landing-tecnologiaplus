@@ -1,4 +1,5 @@
 import "./App.css";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import HeroSection from "./rollos-termicos/components/HeroSection/HeroSection";
 import SecondaryHeader from "./components/SecondaryHeader/SecondaryHeader";
 import ClientsSection from "./rollos-termicos/components/ClientsSection/ClientsSection";
@@ -11,7 +12,7 @@ import ContactForm from "./rollos-termicos/components/ContactForm/ContactForm";
 import Footer from "./components/Footer/Footer";
 import "./styles/main.scss";
 
-function App() {
+function RollosTermicosLanding() {
   return (
     <>
       <HeroSection />
@@ -25,6 +26,18 @@ function App() {
       <ContactForm />
       {/* <Footer /> */}
     </>
+  );
+}
+
+function App() {
+  return (
+    <Router>
+      <Routes>
+        {/* Ruta para la landing de rollos térmicos */}
+        {/* <Route path="/rollos-termicos" element={<RollosTermicosLanding />} /> */}
+        <Route path="/" element={<RollosTermicosLanding />} />
+      </Routes>
+    </Router>
   );
 }
 

@@ -18,17 +18,42 @@
 
   .clients__container {
     height: 150px;
-    width: 70%;
+    width: 100%;
     margin: 1rem 0;
 
     display: flex;
     gap: 4rem;
     justify-content: space-around;
+    align-items: center;
+
+    position: relative;
+
+    &::after,
+    &::before {
+      content: "";
+      position: absolute;
+      background: linear-gradient(90deg, #ffffff 0, rgba(255, 255, 255, 0));
+      height: 112px;
+      width: 200px;
+      z-index: 2;
+    }
+
+    &::after {
+      right: 0;
+      top: 0;
+      transform: rotate(180deg);
+    }
+
+    &::before {
+      left: 0;
+      bottom: 0;
+      transform: rotate(0deg);
+    }
 
     img {
-      height: 150px;
+      height: 42px; /* Establece el alto fijo de 32px */
+      width: auto; /* Mantiene la proporción original del logo */
       object-fit: contain;
-      aspect-ratio: 1;
     }
   }
 }

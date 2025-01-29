@@ -3,7 +3,7 @@ import Header from "../Header/Header";
 
 function HeroSection() {
   return (
-    <section className={styles.hero}>
+    <section id="hero-section" className={styles.hero}>
       <Header />
       <div className={styles.hero__content}>
         <img

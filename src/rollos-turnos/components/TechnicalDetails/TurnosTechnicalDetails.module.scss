@@ -41,6 +41,11 @@
         margin-bottom: 1rem;
       }
 
+      .container__colors {
+        display: flex;
+        gap: 1rem;
+      }
+
       .technical__circle__figure {
         height: 40px;
         width: 40px;
@@ -49,6 +54,22 @@
         background: #fff;
         -webkit-box-shadow: 3px 2px 4px 0px rgba(0, 0, 0, 0.6);
         box-shadow: 3px 2px 4px 0px rgba(0, 0, 0, 0.6);
+
+        &.color__blue {
+          background: #00aec5;
+        }
+        &.color__yellow {
+          background: #f3ca03;
+        }
+        &.color__green {
+          background: #00ba8a;
+        }
+        &.color__pink {
+          background: #ff3564;
+        }
+        &.color__white {
+          background: #fff;
+        }
       }
 
       ul {
@@ -64,7 +85,7 @@
           align-items: center;
 
           img {
-            width: 60px;
+            height: 60px;
             object-fit: contain;
           }
 

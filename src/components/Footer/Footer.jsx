@@ -1,5 +1,4 @@
-import style from "./Footer.module.scss";
-import React from "react";
+import styles from "./Footer.module.scss";
 import { FiInstagram } from "react-icons/fi";
 import { FaTiktok, FaFacebookF, FaYoutube } from "react-icons/fa";
 import { MdOutlineEmail } from "react-icons/md";
@@ -7,11 +6,12 @@ import { HiPhone } from "react-icons/hi";
 
 const Footer = () => {
   return (
-    <footer className="footer">
-      <div className="footer__top">
-        <div className="footer__section">
+    <footer className={styles.footer}>
+      <div className={styles.footer__top}>
+        {/* Redes Sociales */}
+        <div>
           <h3>Síguenos</h3>
-          <ul className="footer__social">
+          <ul className={styles.footer__social}>
             <li>
               <FiInstagram />
             </li>
@@ -26,40 +26,54 @@ const Footer = () => {
             </li>
           </ul>
         </div>
-        <div className="footer__section">
+
+        {/* Contacto */}
+        <div>
           <h3>Contacto</h3>
           <ul>
             <li>
-              <MdOutlineEmail /> ventas@tecnologiaplus.com
+              <a href="mailto:ventas@tecnologiaplus.com">
+                <MdOutlineEmail /> ventas@tecnologiaplus.com
+              </a>
             </li>
             <li>
-              <HiPhone /> (+57) 322 734 79 71
+              <a href="tel:+573227347971">
+                <HiPhone /> (+57) 322 734 79 71
+              </a>
             </li>
             <li>
-              <HiPhone /> (+57) 316 692 38 27
+              <a href="tel:+573166923827">
+                <HiPhone /> (+57) 316 692 38 27
+              </a>
             </li>
           </ul>
         </div>
-        <div className="footer__section">
+
+        {/* Ubicación */}
+        <div>
           <h3>Estamos en</h3>
           <ul>
             <li>
               <img
                 src="https://res.cloudinary.com/dckxydnei/image/upload/v1738128342/colombia_1_mcsiuu.png"
                 alt="Colombia"
-              />
+                loading="lazy"
+              />{" "}
               Colombia
             </li>
             <li>Bogotá • Av. Cra 30#75-61 Oficina 510.</li>
             <li>Medellín • El Poblado edificio Oceanía.</li>
             <li>Cobertura nacional</li>
           </ul>
+        </div>
+        <div className={styles.footer__peru}>
           <ul>
             <li>
               <img
                 src="https://res.cloudinary.com/dckxydnei/image/upload/v1738128406/peru_myylpq.png"
                 alt="Perú"
-              />
+                loading="lazy"
+              />{" "}
               Perú
             </li>
             <li>(+51) 976 270 171</li>
@@ -67,10 +81,13 @@ const Footer = () => {
           </ul>
         </div>
       </div>
-      <div className="footer__bottom">
+
+      {/* Logo */}
+      <div className={styles.footer__bottom}>
         <img
-          src="https://res.cloudinary.com/dckxydnei/image/upload/v1738127256/Captura-de-pantalla-2025-01-29-000613_1_oxgzf9.webp"
-          alt="Tecnología Plus"
+          src="https://res.cloudinary.com/dckxydnei/image/upload/v1738197773/Tplus_en_blanco_2x-8_uokdmv.webp"
+          alt="Logo de Tecnología Plus"
+          loading="lazy"
         />
       </div>
     </footer>

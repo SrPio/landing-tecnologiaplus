@@ -28,7 +28,7 @@ function RelatedProducts() {
             </div>
             <img
               loading="lazy"
-              src="https://res.cloudinary.com/dckxydnei/image/upload/v1738120511/TurnoExpress_2x-8_1_hzrwei.webp"
+              src="https://res.cloudinary.com/dckxydnei/image/upload/v1738197774/TurnoExpress_2x-8_ri7zqh.webp"
               alt="imagen de TurnoExpress"
             />
           </div>
@@ -44,7 +44,7 @@ function RelatedProducts() {
             </div>
             <img
               loading="lazy"
-              src="https://res.cloudinary.com/dckxydnei/image/upload/v1738089022/RollosPruebaTecnica/vrshbuavglhjzjks2tbv.webp"
+              src="https://res.cloudinary.com/dckxydnei/image/upload/v1738197776/dispensador_de_tiquetes_2x-8_qusuqr.webp"
               alt="imagen de Dispensador de tiquetes"
             />
           </div>

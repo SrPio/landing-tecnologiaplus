@@ -99,6 +99,11 @@
         &.color__white {
           background: #fff;
         }
+
+        &.selected {
+          outline: 3px solid #0b71e4;
+          outline-offset: 3px;
+        }
       }
 
       ul {

@@ -63,7 +63,8 @@ function TurnosTechnicalDetails() {
                 key={image.id}
                 className={`${style.technical__circle__figure} ${
                   style["color__" + image.id]
-                }`}
+                } 
+        ${selectedColor === image.id ? style.selected : ""}`}
                 onClick={() => setSelectedColor(image.id)}
               ></div>
             ))}

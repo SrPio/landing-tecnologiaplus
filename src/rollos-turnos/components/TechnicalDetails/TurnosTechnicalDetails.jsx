@@ -1,14 +1,51 @@
+import { useState } from "react";
 import style from "./TurnosTechnicalDetails.module.scss";
 
 function TurnosTechnicalDetails() {
+  const [selectedColor, setSelectedColor] = useState("blue");
+
+  const images = [
+    {
+      id: "blue",
+      src: "https://res.cloudinary.com/dckxydnei/image/upload/v1738197772/rolloz_azul_2x-8_iu6bqi.webp",
+      alt: "imagen rollos de tickets azules",
+    },
+    {
+      id: "yellow",
+      src: "https://res.cloudinary.com/dckxydnei/image/upload/v1738197770/rollos_amarillo_2x-8_p2ydov.webp",
+      alt: "imagen rollos de tickets amarillos",
+    },
+    {
+      id: "green",
+      src: "https://res.cloudinary.com/dckxydnei/image/upload/v1738197771/rollos_verde_2x-8_n0r63p.webp",
+      alt: "imagen rollos de tickets verdes",
+    },
+    {
+      id: "pink",
+      src: "https://res.cloudinary.com/dckxydnei/image/upload/v1738197771/rollos_rosado_2x-8_oocdj4.webp",
+      alt: "imagen rollos de tickets rosas",
+    },
+    {
+      id: "white",
+      src: "https://res.cloudinary.com/dckxydnei/image/upload/v1738197771/rollos_blanco_2x-8_r2y66g.webp",
+      alt: "imagen rollos de tickets blancos",
+    },
+  ];
+
   return (
     <section className={style.technical__details}>
       <div className={style.technical__carousel__container}>
-        <img
-          loading="lazy"
-          src="https://res.cloudinary.com/dckxydnei/image/upload/v1738197772/rolloz_azul_2x-8_iu6bqi.webp"
-          alt="imagen rollos de tickets"
-        />
+        {images.map((image) => (
+          <img
+            key={image.id}
+            src={image.src}
+            alt={image.alt}
+            loading="lazy"
+            className={
+              selectedColor === image.id ? style.visible : style.invisible
+            }
+          />
+        ))}
       </div>
       <div className={style.TechnicalDetails__container}>
         <div className={style.technical__textContainer}>
@@ -16,28 +53,20 @@ function TurnosTechnicalDetails() {
           <p>Rollos de turnos</p>
         </div>
         <div className={style.technical__info}>
-          <h3>Color - Azul</h3>
+          <h3>
+            Color -{" "}
+            {selectedColor.charAt(0).toUpperCase() + selectedColor.slice(1)}
+          </h3>
           <div className={style.container__colors}>
-            <div
-              className={`${style.technical__circle__figure} ${style.color__blue}`}
-              id="color-blue"
-            ></div>
-            <div
-              className={`${style.technical__circle__figure} ${style.color__yellow}`}
-              id="color-yellow"
-            ></div>
-            <div
-              className={`${style.technical__circle__figure} ${style.color__green}`}
-              id="color-green"
-            ></div>
-            <div
-              className={`${style.technical__circle__figure} ${style.color__pink}`}
-              id="color-pink"
-            ></div>
-            <div
-              className={`${style.technical__circle__figure} ${style.color__withe}`}
-              id="color-white"
-            ></div>
+            {images.map((image) => (
+              <div
+                key={image.id}
+                className={`${style.technical__circle__figure} ${
+                  style["color__" + image.id]
+                }`}
+                onClick={() => setSelectedColor(image.id)}
+              ></div>
+            ))}
           </div>
         </div>
         <div className={style.technical__info}>

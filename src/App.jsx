@@ -19,6 +19,7 @@ import TurnosBenefitsSection from "./rollos-turnos/components/BenefitsSection/Tu
 import { LogosProvider } from "./context/LogosContext"; // Asegúrate de que la ruta sea correcta
 import TurnosTechnicalDetails from "./rollos-turnos/components/TechnicalDetails/TurnosTechnicalDetails";
 import TurnoIndustriesSection from "./rollos-turnos/components/IndustriesSection/TurnoIndustriesSection";
+import TurnosRelatedProducts from "./rollos-turnos/components/RelatedProducts/TurnosRelatedProducts";
 
 function RollosTermicosLanding() {
   return (
@@ -47,7 +48,7 @@ function RollosTurnosLanding() {
       <TurnosBenefitsSection />
       <TurnosTechnicalDetails />
       <TurnoIndustriesSection />
-      <RelatedProducts />
+      <TurnosRelatedProducts />
       <ContactForm />
       <Footer />
     </>

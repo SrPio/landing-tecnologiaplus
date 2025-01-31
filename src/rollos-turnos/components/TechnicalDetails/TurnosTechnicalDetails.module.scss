@@ -1,13 +1,14 @@
 .technical__details {
   padding: 6rem 5%;
   display: flex;
+  justify-content: center;
   gap: 4rem;
   .technical__carousel__container {
     background: #efedee;
     border-radius: 50px;
     position: relative;
-    height: auto;
-    width: 40%;
+    width: 45%;
+    aspect-ratio: 4 / 3;
     -webkit-border-radius: 50px;
     -moz-border-radius: 50px;
     -ms-border-radius: 50px;
@@ -16,6 +17,7 @@
     padding: 4rem;
 
     img {
+      padding: 50px;
       position: absolute;
       top: 0;
       left: 0;

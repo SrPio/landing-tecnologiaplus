@@ -55,7 +55,7 @@ const Footer = () => {
           <ul>
             <li>
               <img
-                src="https://res.cloudinary.com/dckxydnei/image/upload/v1738128342/colombia_1_mcsiuu.png"
+                src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1738349920/colombia_1_mcsiuu_vyabd4.png"
                 alt="Colombia"
                 loading="lazy"
               />{" "}
@@ -70,7 +70,7 @@ const Footer = () => {
           <ul>
             <li>
               <img
-                src="https://res.cloudinary.com/dckxydnei/image/upload/v1738128406/peru_myylpq.png"
+                src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1738349923/peru_myylpq_rpvpzb.png"
                 alt="Perú"
                 loading="lazy"
               />{" "}
@@ -85,7 +85,7 @@ const Footer = () => {
       {/* Logo */}
       <div className={styles.footer__bottom}>
         <img
-          src="https://res.cloudinary.com/dckxydnei/image/upload/v1738197773/Tplus_en_blanco_2x-8_uokdmv.webp"
+          src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1738350028/Tplus_en_blanco_2x-8_uokdmv_zoykmd.webp"
           alt="Logo de Tecnología Plus"
           loading="lazy"
         />

@@ -14,7 +14,7 @@ function Header() {
         <img
           loading="lazy"
           className={styles.logo}
-          src="https://res.cloudinary.com/dckxydnei/image/upload/v1738092559/Logo_Tecnolog%C3%ADa_Plus_2024_cyahos.svg"
+          src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1738349922/Logo_Tecnolog%C3%ADa_Plus_2024_cyahos_cgz5gx.svg"
           alt="logo Tecnología plus"
         />
       </a>

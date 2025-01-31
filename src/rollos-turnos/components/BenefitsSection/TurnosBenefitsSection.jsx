@@ -4,7 +4,7 @@ function TurnosBenefitsSection() {
   return (
     <section className={style.benefits__section}>
       <h2 className={style.benefits__title}>
-        ¿POR QUÉ ELECIR
+        ¿POR QUÉ ELEGIR
         <br />
         NUESTROS ROLLOS
         <br />

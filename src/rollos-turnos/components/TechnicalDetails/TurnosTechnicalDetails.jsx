@@ -2,31 +2,31 @@ import { useState } from "react";
 import style from "./TurnosTechnicalDetails.module.scss";
 
 function TurnosTechnicalDetails() {
-  const [selectedColor, setSelectedColor] = useState("blue");
+  const [selectedColor, setSelectedColor] = useState("Azul");
 
   const images = [
     {
-      id: "blue",
-      src: "https://res.cloudinary.com/dckxydnei/image/upload/v1738197772/rolloz_azul_2x-8_iu6bqi.webp",
+      id: "Azul",
+      src: "https://res.cloudinary.com/dckxydnei/image/upload/v1738349276/rollos-azules_2x-8_1_zlde3h.webp",
       alt: "imagen rollos de tickets azules",
     },
     {
-      id: "yellow",
+      id: "Amarillo",
       src: "https://res.cloudinary.com/dckxydnei/image/upload/v1738197770/rollos_amarillo_2x-8_p2ydov.webp",
       alt: "imagen rollos de tickets amarillos",
     },
     {
-      id: "green",
+      id: "Verde",
       src: "https://res.cloudinary.com/dckxydnei/image/upload/v1738197771/rollos_verde_2x-8_n0r63p.webp",
       alt: "imagen rollos de tickets verdes",
     },
     {
-      id: "pink",
+      id: "Rosa",
       src: "https://res.cloudinary.com/dckxydnei/image/upload/v1738197771/rollos_rosado_2x-8_oocdj4.webp",
       alt: "imagen rollos de tickets rosas",
     },
     {
-      id: "white",
+      id: "Blanco",
       src: "https://res.cloudinary.com/dckxydnei/image/upload/v1738197771/rollos_blanco_2x-8_r2y66g.webp",
       alt: "imagen rollos de tickets blancos",
     },

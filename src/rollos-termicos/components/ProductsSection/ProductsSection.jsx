@@ -7,12 +7,12 @@ function ProductsSection() {
       <div className={style.products__container}>
         <img
           loading="lazy"
-          src="https://res.cloudinary.com/dckxydnei/image/upload/v1738106572/image-1_1_ljyxis.webp"
+          src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1738349920/image-1_1_ljyxis_qdsmdq.webp"
           alt="Rollos de impresión"
         />
         <img
           loading="lazy"
-          src="https://res.cloudinary.com/dckxydnei/image/upload/v1738106457/Recurso-13_2x-8_1_suitny.webp"
+          src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1738349923/Recurso-13_2x-8_1_suitny_l91ptd.webp"
           alt="Imagen de Impresora"
         />
       </div>

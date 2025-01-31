@@ -8,7 +8,7 @@ function TurnoIndustriesSection() {
         <li>
           <img
             loading="lazy"
-            src="https://res.cloudinary.com/dckxydnei/image/upload/v1738089023/RollosPruebaTecnica/i7kjrc8clsir0yjklhqg.webp"
+            src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1738350027/Salud_2x-8_vg4jxo_dyuifd.webp"
             alt="icono de salud"
           />
           <p>Sector salud</p>
@@ -16,7 +16,7 @@ function TurnoIndustriesSection() {
         <li>
           <img
             loading="lazy"
-            src="https://res.cloudinary.com/dckxydnei/image/upload/v1738089022/RollosPruebaTecnica/h2wnutneinlzk5arrt5o.webp"
+            src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1738349970/Oficinas_2x-8_xzhwcw_jumnnh.webp"
             alt="icono de oficina"
           />
           <p>Oficinas</p>
@@ -24,7 +24,7 @@ function TurnoIndustriesSection() {
         <li>
           <img
             loading="lazy"
-            src="https://res.cloudinary.com/dckxydnei/image/upload/v1738089023/RollosPruebaTecnica/bk8jttrreuotq36ed4az.webp"
+            src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1738349970/otras_indistrias_2x-8_bvq8fo_s2xoyg.webp"
             alt="icono de otras industrias"
           />
           <p>Otras industrias</p>

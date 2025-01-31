@@ -12,7 +12,7 @@ function RelatedProducts() {
             </div>
             <img
               loading="lazy"
-              src="https://res.cloudinary.com/dckxydnei/image/upload/v1738120517/TurnoMaster_2x-8_1_t4wh3f.webp"
+              src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1738349924/TurnoMaster_2x-8_1_t4wh3f_ooru74.webp"
               alt="imagen de TurnoMaster"
             />
           </div>
@@ -28,7 +28,7 @@ function RelatedProducts() {
             </div>
             <img
               loading="lazy"
-              src="https://res.cloudinary.com/dckxydnei/image/upload/v1738197774/TurnoExpress_2x-8_ri7zqh.webp"
+              src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1738350028/TurnoExpress_2x-8_ri7zqh_xjz8bw.webp"
               alt="imagen de TurnoExpress"
             />
           </div>
@@ -44,7 +44,7 @@ function RelatedProducts() {
             </div>
             <img
               loading="lazy"
-              src="https://res.cloudinary.com/dckxydnei/image/upload/v1738197776/dispensador_de_tiquetes_2x-8_qusuqr.webp"
+              src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1738349966/dispensador_de_tiquetes_2x-8_qusuqr_fuxs8k.webp"
               alt="imagen de Dispensador de tiquetes"
             />
           </div>
@@ -58,7 +58,7 @@ function RelatedProducts() {
           <li>
             <img
               loading="lazy"
-              src="https://res.cloudinary.com/dckxydnei/image/upload/v1738089023/RollosPruebaTecnica/xcbtnf1wh1en4taujsdx.webp"
+              src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1738349925/xcbtnf1wh1en4taujsdx_avnfkj.webp"
               alt="icono pulgar arriba"
             />
             <p>precios justos</p>
@@ -66,7 +66,7 @@ function RelatedProducts() {
           <li>
             <img
               loading="lazy"
-              src="https://res.cloudinary.com/dckxydnei/image/upload/v1738089023/RollosPruebaTecnica/zpyfcqvsxo6wdubn2kdu.webp"
+              src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1738349925/zpyfcqvsxo6wdubn2kdu_iuw7tl.webp"
               alt="icono de seguridad"
             />
             <p>Protección al comprador</p>
@@ -74,7 +74,7 @@ function RelatedProducts() {
           <li>
             <img
               loading="lazy"
-              src="https://res.cloudinary.com/dckxydnei/image/upload/v1738089023/RollosPruebaTecnica/jg3stajnopybox4xxdkd.webp"
+              src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1738349921/jg3stajnopybox4xxdkd_favvxk.webp"
               alt="icono de excelencia"
             />
             <p>Excelente garantía</p>
@@ -82,7 +82,7 @@ function RelatedProducts() {
           <li>
             <img
               loading="lazy"
-              src="https://res.cloudinary.com/dckxydnei/image/upload/v1738089023/RollosPruebaTecnica/ynuxn64wkw3nkqxl4tvo.webp"
+              src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1738349925/ynuxn64wkw3nkqxl4tvo_lwqzi0.webp"
               alt="icono de envíos a todo el país"
             />
             <p>Envíos a todo el país</p>

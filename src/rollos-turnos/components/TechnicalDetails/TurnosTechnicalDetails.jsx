@@ -7,27 +7,27 @@ function TurnosTechnicalDetails() {
   const images = [
     {
       id: "Azul",
-      src: "https://res.cloudinary.com/dckxydnei/image/upload/v1738349276/rollos-azules_2x-8_1_zlde3h.webp",
+      src: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1738349970/rollos-azules_2x-8_1_zlde3h_bt9zne.webp",
       alt: "imagen rollos de tickets azules",
     },
     {
       id: "Amarillo",
-      src: "https://res.cloudinary.com/dckxydnei/image/upload/v1738197770/rollos_amarillo_2x-8_p2ydov.webp",
+      src: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1738349971/rollos_amarillo_2x-8_p2ydov_xppmau.webp",
       alt: "imagen rollos de tickets amarillos",
     },
     {
       id: "Verde",
-      src: "https://res.cloudinary.com/dckxydnei/image/upload/v1738197771/rollos_verde_2x-8_n0r63p.webp",
+      src: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1738350026/rollos_verde_2x-8_n0r63p_gkrq0j.webp",
       alt: "imagen rollos de tickets verdes",
     },
     {
       id: "Rosa",
-      src: "https://res.cloudinary.com/dckxydnei/image/upload/v1738197771/rollos_rosado_2x-8_oocdj4.webp",
+      src: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1738349986/rollos_rosado_2x-8_oocdj4_d0tqzs.webp",
       alt: "imagen rollos de tickets rosas",
     },
     {
       id: "Blanco",
-      src: "https://res.cloudinary.com/dckxydnei/image/upload/v1738197771/rollos_blanco_2x-8_r2y66g.webp",
+      src: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1738349971/rollos_blanco_2x-8_r2y66g_escez9.webp",
       alt: "imagen rollos de tickets blancos",
     },
   ];
@@ -76,7 +76,7 @@ function TurnosTechnicalDetails() {
             <li>
               <img
                 loading="lazy"
-                src="https://res.cloudinary.com/dckxydnei/image/upload/v1738197768/iono_caracteristicas_1_2x-8_pnvmte.webp"
+                src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1738349968/iono_caracteristicas_1_2x-8_pnvmte_mfgdfd.webp"
                 alt="icono de ticket"
               />
               <p>
@@ -88,7 +88,7 @@ function TurnosTechnicalDetails() {
             <li>
               <img
                 loading="lazy"
-                src="https://res.cloudinary.com/dckxydnei/image/upload/v1738197769/iono_caracteristicas_3_2x-8_ypg8wb.webp"
+                src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1738349968/iono_caracteristicas_3_2x-8_ypg8wb_esoytf.webp"
                 alt="icono de tipos de numeración"
               />
               <p>
@@ -100,7 +100,7 @@ function TurnosTechnicalDetails() {
             <li>
               <img
                 loading="lazy"
-                src="https://res.cloudinary.com/dckxydnei/image/upload/v1738197768/iono_caracteristicas_2_2x-8_jkw2nh.webp"
+                src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1738349968/iono_caracteristicas_2_2x-8_jkw2nh_w5ebni.webp"
                 alt="icono de turno numerado"
               />
               <p>
@@ -112,7 +112,7 @@ function TurnosTechnicalDetails() {
             <li>
               <img
                 loading="lazy"
-                src="https://res.cloudinary.com/dckxydnei/image/upload/v1738197769/iono_caracteristicas_4_2x-8_ppszke.webp"
+                src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1738349968/iono_caracteristicas_4_2x-8_ppszke_c4zofk.webp"
                 alt="icono de check"
               />
               <p>

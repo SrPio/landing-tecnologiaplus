@@ -9,7 +9,7 @@ function TurnosHeroSection() {
         <img
           loading="lazy"
           className={styles.hero__img}
-          src="https://res.cloudinary.com/dckxydnei/image/upload/v1738197768/Imagen_banner_2x-8_kcq3mt.webp"
+          src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1738349967/Imagen_banner_2x-8_kcq3mt_v22bb7.webp"
           alt="imagen de rollos para impresora"
         />
 

@@ -6,7 +6,7 @@ function TechnicalDetails() {
       <div className={style.technical__carousel__container}>
         <img
           loading="lazy"
-          src="https://res.cloudinary.com/dckxydnei/image/upload/v1738089023/RollosPruebaTecnica/w95mg3v5l3rz4s634bso.webp"
+          src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1738349924/w95mg3v5l3rz4s634bso_dqg6eq.webp"
           alt="imagen de ficha de fila"
         />
       </div>
@@ -25,7 +25,7 @@ function TechnicalDetails() {
             <li>
               <img
                 loading="lazy"
-                src="https://res.cloudinary.com/dckxydnei/image/upload/v1738089022/RollosPruebaTecnica/uq6mantgalzbg1cwabg2.webp"
+                src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1738349924/uq6mantgalzbg1cwabg2_lq36yt.webp"
                 alt="icono de papel"
               />
               <p>
@@ -37,7 +37,7 @@ function TechnicalDetails() {
             <li>
               <img
                 loading="lazy"
-                src="https://res.cloudinary.com/dckxydnei/image/upload/v1738089022/RollosPruebaTecnica/mfucx7jyhfttrhehhv6f.webp"
+                src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1738349922/mfucx7jyhfttrhehhv6f_gparqv.webp"
                 alt="icono de rollos"
               />
               <p>
@@ -49,7 +49,7 @@ function TechnicalDetails() {
             <li>
               <img
                 loading="lazy"
-                src="https://res.cloudinary.com/dckxydnei/image/upload/v1738089022/RollosPruebaTecnica/mklyxhubukpeobmbjxso.webp"
+                src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1738349922/mklyxhubukpeobmbjxso_swt54w.webp"
                 alt="icono de impresora"
               />
               <p>
@@ -61,7 +61,7 @@ function TechnicalDetails() {
             <li>
               <img
                 loading="lazy"
-                src="https://res.cloudinary.com/dckxydnei/image/upload/v1738089022/RollosPruebaTecnica/jacnophczhcmtv5jmrmt.webp"
+                src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1738349920/jacnophczhcmtv5jmrmt_vsmuoe.webp"
                 alt="icono de check"
               />
               <p>

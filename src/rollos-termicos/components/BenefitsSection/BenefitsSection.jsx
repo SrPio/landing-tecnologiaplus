@@ -12,7 +12,7 @@ function BenefitsSection() {
         <li>
           <img
             loading="lazy"
-            src="https://res.cloudinary.com/dckxydnei/image/upload/v1738089022/RollosPruebaTecnica/rijkjjxwhpa9hbvnj8ga.webp"
+            src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1738349923/rijkjjxwhpa9hbvnj8ga_i2qgeg.webp"
             alt="icono de check"
           />
           Variedad en tamaños y medidas:
@@ -22,7 +22,7 @@ function BenefitsSection() {
         <li>
           <img
             loading="lazy"
-            src="https://res.cloudinary.com/dckxydnei/image/upload/v1738089022/RollosPruebaTecnica/za4ik6yfenohf4oquc0j.webp"
+            src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1738349925/za4ik6yfenohf4oquc0j_fdtqew.webp"
             alt="icono de calendario"
           />
           Alta calidad de impresión:
@@ -32,7 +32,7 @@ function BenefitsSection() {
         <li>
           <img
             loading="lazy"
-            src="https://res.cloudinary.com/dckxydnei/image/upload/v1738089022/RollosPruebaTecnica/u2v3b0ngu177bi5byxcv.webp"
+            src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1738349924/u2v3b0ngu177bi5byxcv_yckaaq.webp"
             alt="icono check"
           />
           Compatibilidad:

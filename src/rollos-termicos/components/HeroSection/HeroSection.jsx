@@ -9,7 +9,7 @@ function HeroSection() {
         <img
           loading="lazy"
           className={styles.hero__img}
-          src="https://res.cloudinary.com/dckxydnei/image/upload/v1738089024/RollosPruebaTecnica/tiuyfgrjwlmhj4gdzrtm.webp"
+          src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1738349924/tiuyfgrjwlmhj4gdzrtm_lybcwl.webp"
           alt="imagen de rollos para impresora"
         />
 

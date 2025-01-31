@@ -14,7 +14,7 @@ function TurnosBenefitsSection() {
         <li>
           <img
             loading="lazy"
-            src="https://res.cloudinary.com/dckxydnei/image/upload/v1738197776/Icono_1_2x-8_qhtpsh.webp"
+            src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1738349967/Icono_1_2x-8_qhtpsh_s64dlx.webp"
             alt="icono de ticket"
           />
           Evita desperdicio - Corte de calidad.
@@ -22,7 +22,7 @@ function TurnosBenefitsSection() {
         <li>
           <img
             loading="lazy"
-            src="https://res.cloudinary.com/dckxydnei/image/upload/v1738197768/Icono_2_2x-8_q5lixj.webp"
+            src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1738349967/Icono_2_2x-8_q5lixj_n0jsyy.webp"
             alt="icono de tipos de ticket"
           />
           Distintas formas de numeración.

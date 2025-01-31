@@ -28,10 +28,10 @@ function ContactForm() {
           />
           <input
             type="text"
-            placeholder="¿Que Producto te Interesa?"
+            placeholder="¿Que producto te interesa?"
             onFocus={(e) => (e.target.placeholder = "")}
             onBlur={(e) =>
-              (e.target.placeholder = "¿Que Producto te Interesa?")
+              (e.target.placeholder = "¿Que producto te interesa?")
             }
           ></input>
           <button type="submit">Enviar</button>

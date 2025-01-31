@@ -15,11 +15,15 @@ function HeroSection() {
 
         <div className={styles.hero__text}>
           <h1>
-            0000000000000
+            Rollos térmicos en variedad
             <br />
-            00000000000000
+            de tamaños. ¡Somos fabricantes!
           </h1>
-          <p>00000000000</p>
+          <p>
+            Perfectos para tickets, facturas y más.
+            <br />
+            ¡No busques mas!
+          </p>
           <a className={styles.hero__btn} href="#">
             Ver más
           </a>

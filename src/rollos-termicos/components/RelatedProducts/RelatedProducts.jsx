@@ -8,7 +8,7 @@ function RelatedProducts() {
           <div className={style.card__info}>
             <div className={style.card__text}>
               <h3>TurnoMaster</h3>
-              <p>Descripción pequeña aquí</p>
+              <p>Digitaliza la gestión de turnos.</p>
             </div>
             <img
               loading="lazy"
@@ -24,7 +24,7 @@ function RelatedProducts() {
           <div className={style.card__info}>
             <div className={style.card__text}>
               <h3>TurnoExpress</h3>
-              <p>Descripción pequeña aquí</p>
+              <p>Rapidez y agilidad para tus filas.</p>
             </div>
             <img
               loading="lazy"
@@ -40,7 +40,7 @@ function RelatedProducts() {
           <div className={style.card__info}>
             <div className={style.card__text}>
               <h3>Dispensador de tiquetes</h3>
-              <p>Descripción pequeña aquí</p>
+              <p>Complemento práctico para tomar el turno.</p>
             </div>
             <img
               loading="lazy"

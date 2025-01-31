@@ -24,7 +24,7 @@ function ProductsSection() {
         Nos comprometemos a brindar soluciones confiables que optimicen tus
         procesos y refuercen la profesionalidad de tu empresa. Elige Tecnología
         Plus y experimenta la diferencia que solo los expertos pueden ofrecer.
-        Contacta con nosotros y descubre cómo podemos ser tu mejor aliado en
+        ¡Contacta con nosotros y descubre cómo podemos ser tu mejor aliado en
         impresión térmica!
       </p>
     </section>

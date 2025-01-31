@@ -3,7 +3,10 @@ import style from "./IndustriesSection.module.scss";
 function IndustriesSection() {
   return (
     <section className={style.industries__section}>
-      <h2>NUESTROS ROLLOS TÉRMICOS ADAPTABLES A TODOS LOS SECTORES</h2>
+      <h2>
+        Nuestros Rollos Térmicos funcionan en todos los sectores, desde el
+        sector salud hasta oficinas y comercios.
+      </h2>
       <ul>
         <li>
           <img

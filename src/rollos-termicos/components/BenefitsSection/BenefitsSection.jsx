@@ -15,7 +15,9 @@ function BenefitsSection() {
             src="https://res.cloudinary.com/dckxydnei/image/upload/v1738089022/RollosPruebaTecnica/rijkjjxwhpa9hbvnj8ga.webp"
             alt="icono de check"
           />
-          Alta calidad de impresión.
+          Variedad en tamaños y medidas:
+          <br />
+          perfectos para tickets, recibos y más.
         </li>
         <li>
           <img
@@ -23,9 +25,9 @@ function BenefitsSection() {
             src="https://res.cloudinary.com/dckxydnei/image/upload/v1738089022/RollosPruebaTecnica/za4ik6yfenohf4oquc0j.webp"
             alt="icono de calendario"
           />
-          Durabilidad a largo plazo y
+          Alta calidad de impresión:
           <br />
-          rendimiento confiable.
+          Textos y gráficos claros en cada ticket.
         </li>
         <li>
           <img
@@ -33,9 +35,9 @@ function BenefitsSection() {
             src="https://res.cloudinary.com/dckxydnei/image/upload/v1738089022/RollosPruebaTecnica/u2v3b0ngu177bi5byxcv.webp"
             alt="icono check"
           />
-          Alta compatibilidad con
+          Compatibilidad:
           <br />
-          impresoras térmicas.
+          Con impresoras térmicas multimarcas.
         </li>
       </ul>
     </section>

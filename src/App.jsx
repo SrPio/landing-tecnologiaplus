@@ -20,6 +20,7 @@ import { LogosProvider } from "./context/LogosContext"; // Asegúrate de que la 
 import TurnosTechnicalDetails from "./rollos-turnos/components/TechnicalDetails/TurnosTechnicalDetails";
 import TurnoIndustriesSection from "./rollos-turnos/components/IndustriesSection/TurnoIndustriesSection";
 import TurnosRelatedProducts from "./rollos-turnos/components/RelatedProducts/TurnosRelatedProducts";
+import WppBtn from "./components/WppBtn/WppBtn";
 
 function RollosTermicosLanding() {
   return (
@@ -33,6 +34,7 @@ function RollosTermicosLanding() {
       <IndustriesSection />
       <RelatedProducts />
       <ContactForm />
+      <WppBtn />
       <Footer />
     </>
   );
@@ -50,6 +52,7 @@ function RollosTurnosLanding() {
       <TurnoIndustriesSection />
       <TurnosRelatedProducts />
       <ContactForm />
+      <WppBtn />
       <Footer />
     </>
   );

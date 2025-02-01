@@ -7,6 +7,13 @@
     .related__products__card:first-child .card__info {
       padding-left: 0;
       padding-bottom: 0;
+
+      img {
+        width: 100%;
+        height: 250px;
+        object-fit: cover;
+        object-position: 90% center;
+      }
     }
   }
 }

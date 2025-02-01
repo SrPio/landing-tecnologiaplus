@@ -16,6 +16,7 @@ function RelatedProducts() {
               alt="imagen de TurnoMaster"
             />
           </div>
+          <p className={style.selling__counter}>0000 vendidos</p>
           <a className={style.card__btn} href="#">
             Ver más
           </a>
@@ -32,6 +33,7 @@ function RelatedProducts() {
               alt="imagen de TurnoExpress"
             />
           </div>
+          <p className={style.selling__counter}>0000 vendidos</p>
           <a className={style.card__btn} href="#">
             Ver más
           </a>
@@ -48,6 +50,7 @@ function RelatedProducts() {
               alt="imagen de Dispensador de tiquetes"
             />
           </div>
+          <p className={style.selling__counter}>0000 vendidos</p>
           <a className={style.card__btn} href="#">
             Ver más
           </a>

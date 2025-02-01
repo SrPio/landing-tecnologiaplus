@@ -13,10 +13,11 @@
     align-items: center;
     gap: 2rem;
 
-    .related__products__card:first-child .card__info {
+    .related__products__card:last-child .card__info {
       padding-left: 0;
       padding-bottom: 0;
     }
+
     .related__products__card {
       display: flex;
       flex-direction: column;

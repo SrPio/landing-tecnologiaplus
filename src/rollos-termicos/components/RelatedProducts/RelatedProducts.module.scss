@@ -2,4 +2,11 @@
 
 .related__products {
   // Variaciones específicas para `rollos-termicos`
+
+  .related__products__container {
+    .related__products__card:first-child .card__info {
+      padding-left: 0;
+      padding-bottom: 0;
+    }
+  }
 }

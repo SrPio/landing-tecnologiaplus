@@ -11,7 +11,7 @@ function IndustriesSection() {
         <li>
           <img
             loading="lazy"
-            src="https://res.cloudinary.com/dckxydnei/image/upload/v1738089023/RollosPruebaTecnica/i7kjrc8clsir0yjklhqg.webp"
+            src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1738350027/Salud_2x-8_vg4jxo_dyuifd.webp"
             alt="icono de salud"
           />
           <p>Sector salud</p>

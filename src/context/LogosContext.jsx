@@ -109,8 +109,61 @@ export const LogosProvider = ({ children }) => {
     },
   ]);
 
+  const [logosDispensadorTiquetes] = useState([
+    {
+      src: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1738425713/Logo_cliente_1_jutge5.svg",
+      alt: "Logo Don Jediondo",
+    },
+    {
+      src: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1738349921/logos_clientes-02_vu1bar_uhkadi.svg",
+      alt: "Logo Colmedica",
+    },
+    {
+      src: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1738425714/Logo_cliente_3_f6ba1f.svg",
+      alt: "Logo Alkosto",
+    },
+    {
+      src: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1738425712/Logo_cliente_4_g8ztvp.svg",
+      alt: "Logo Smart Fit",
+    },
+    {
+      src: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1738425712/Logo_cliente_5_dsigab.svg",
+      alt: "Logo Qbano",
+    },
+    {
+      src: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1738425712/Logo_cliente_6_gheasz.svg",
+      alt: "Logo Mac Pollo",
+    },
+    {
+      src: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1738425713/Logo_cliente_1_jutge5.svg",
+      alt: "Logo Don Jediondo",
+    },
+    {
+      src: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1738349921/logos_clientes-02_vu1bar_uhkadi.svg",
+      alt: "Logo Colmedica",
+    },
+    {
+      src: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1738425714/Logo_cliente_3_f6ba1f.svg",
+      alt: "Logo Alkosto",
+    },
+    {
+      src: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1738425712/Logo_cliente_4_g8ztvp.svg",
+      alt: "Logo Smart Fit",
+    },
+    {
+      src: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1738425712/Logo_cliente_5_dsigab.svg",
+      alt: "Logo Qbano",
+    },
+    {
+      src: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1738425712/Logo_cliente_6_gheasz.svg",
+      alt: "Logo Mac Pollo",
+    },
+  ]);
+
   return (
-    <LogosContext.Provider value={{ logosTermicos, logosTurnos }}>
+    <LogosContext.Provider
+      value={{ logosTermicos, logosTurnos, logosDispensadorTiquetes }}
+    >
       {children}
     </LogosContext.Provider>
   );

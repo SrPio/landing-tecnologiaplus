@@ -8,7 +8,7 @@ const LogosCarousel = ({ logos }) => {
   return (
     <div className={styles.logosCarousel}>
       <Swiper
-        slidesPerView={5}
+        slidesPerView={10}
         spaceBetween={30}
         loop={true}
         autoplay={{

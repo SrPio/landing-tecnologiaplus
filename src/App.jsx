@@ -21,6 +21,8 @@ import TurnosTechnicalDetails from "./rollos-turnos/components/TechnicalDetails/
 import TurnoIndustriesSection from "./rollos-turnos/components/IndustriesSection/TurnoIndustriesSection";
 import TurnosRelatedProducts from "./rollos-turnos/components/RelatedProducts/TurnosRelatedProducts";
 import WppBtn from "./components/WppBtn/WppBtn";
+import DispensadorTiquetesHeroSection from "./dispensador-tiquetes/components/HeroSection/DispensadorTiquetesHeroSection";
+import DispensadorTiquetesClientsSection from "./dispensador-tiquetes/components/ClientsSection/DispensadorTiquetesClientsSection";
 
 function RollosTermicosLanding() {
   return (
@@ -58,6 +60,17 @@ function RollosTurnosLanding() {
   );
 }
 
+function DispensadorTiquetesLanding() {
+  return (
+    <>
+      <DispensadorTiquetesHeroSection />
+      <DispensadorTiquetesClientsSection />
+      <WppBtn />
+      <Footer />
+    </>
+  );
+}
+
 function App() {
   return (
     // Envuelve todo en LogosProvider para tener acceso al contexto
@@ -68,6 +81,10 @@ function App() {
           {/* <Route path="/rollos-termicos" element={<RollosTermicosLanding />} /> */}
           <Route path="/" element={<RollosTermicosLanding />} />
           <Route path="/rollos-turnos" element={<RollosTurnosLanding />} />
+          <Route
+            path="/dispensador-tiquetes"
+            element={<DispensadorTiquetesLanding />}
+          />
         </Routes>
       </Router>
     </LogosProvider>

@@ -27,6 +27,13 @@ import DispensadorTiquetesProductsSection from "./dispensador-tiquetes/component
 import DispensadorTiquetesBenefitsSection from "./dispensador-tiquetes/components/BenefitsSection/DispensadorTiquetesBenefitsSection";
 import DispensadorTiquetesIndustriesSection from "./dispensador-tiquetes/components/IndustriesSection/DispensadorTiquetesIndustriesSection";
 import DispensadorTiquetesRelatedProducts from "./dispensador-tiquetes/components/RelatedProducts/DispensadorTiquetesRelatedProducts";
+import TurnoExpressHeroSection from "./turnero-turnoexpress/components/HeroSection/TurnoExpressHeroSection";
+import TurnoExpressClientsSection from "./turnero-turnoexpress/components/ClientsSection/TurnoExpressClientsSection";
+import TurnoExpressBenefitsSection from "./turnero-turnoexpress/components/BenefitsSection/TurnoExpressBenefitsSection";
+import TurnoExpressProductsSection from "./turnero-turnoexpress/components/ProductsSection/TurnoExpressProductsSection";
+import TurnoExpressRelatedProducts from "./turnero-turnoexpress/components/RelatedProducts/TurnoExpressRelatedProducts";
+import TurnoExpressIndustriesSection from "./turnero-turnoexpress/components/IndustriesSection/TurnoExpressIndustriesSection";
+import SecondaryTurnoExpressProductsSection from "./turnero-turnoexpress/components/SecondaryProductsSection/SecondaryTurnoExpressProductsSection";
 
 function RollosTermicosLanding() {
   return (
@@ -80,19 +87,39 @@ function DispensadorTiquetesLanding() {
   );
 }
 
+function TurnoExpressLanding() {
+  return (
+    <>
+      <TurnoExpressHeroSection />
+      <TurnoExpressClientsSection />
+      <TurnoExpressProductsSection />
+      <TurnoExpressBenefitsSection />
+      <SecondaryTurnoExpressProductsSection />
+      <TurnoExpressIndustriesSection />
+      <TurnoExpressRelatedProducts />
+      <ContactForm />
+      <WppBtn />
+      <Footer />
+    </>
+  );
+}
+
 function App() {
   return (
     // Envuelve todo en LogosProvider para tener acceso al contexto
     <LogosProvider>
       <Router>
         <Routes>
-          {/* Ruta para la landing de rollos térmicos */}
           {/* <Route path="/rollos-termicos" element={<RollosTermicosLanding />} /> */}
           <Route path="/" element={<RollosTermicosLanding />} />
           <Route path="/rollos-turnos" element={<RollosTurnosLanding />} />
           <Route
             path="/dispensador-tiquetes"
             element={<DispensadorTiquetesLanding />}
+          />
+          <Route
+            path="/turnero-turnoexpress"
+            element={<TurnoExpressLanding />}
           />
         </Routes>
       </Router>

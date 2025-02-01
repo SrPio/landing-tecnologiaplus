@@ -3,9 +3,7 @@ import style from "./DispensadorTiquetesProductsSection.module.scss";
 function DispensadorTiquetesProductsSection() {
   return (
     <section className={style.products__section}>
-      <h2 className={style.products__title}>
-        ColoDispensador de rollos de turnos
-      </h2>
+      <h2 className={style.products__title}>Dispensador de rollos de turnos</h2>
       <div className={style.products__container}>
         <img
           loading="lazy"

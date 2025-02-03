@@ -34,6 +34,13 @@ import TurnoExpressProductsSection from "./turnero-turnoexpress/components/Produ
 import TurnoExpressRelatedProducts from "./turnero-turnoexpress/components/RelatedProducts/TurnoExpressRelatedProducts";
 import TurnoExpressIndustriesSection from "./turnero-turnoexpress/components/IndustriesSection/TurnoExpressIndustriesSection";
 import SecondaryTurnoExpressProductsSection from "./turnero-turnoexpress/components/SecondaryProductsSection/SecondaryTurnoExpressProductsSection";
+import CalificadorHeroSection from "./calificador/components/HeroSection/CalificadorHeroSection";
+import CalificadorBenefitsSection from "./calificador/components/BenefitsSection/CalificadorBenefitsSection";
+import SecondaryCalificadorProductsSection from "./calificador/components/SecondaryProductsSection/SecondaryCalificadorProductsSection";
+import CalificadorIndustriesSection from "./calificador/components/IndustriesSection/CalificadorIndustriesSection";
+import CalificadorRelatedProducts from "./calificador/components/RelatedProducts/CalificadorRelatedProducts";
+import StepsSectionCalificador from "./calificador/components/StepsSection/StepsSectionCalificador";
+import CalificadorProductsSection from "./calificador/components/ProductsSection/CalificadorProductsSection";
 
 function RollosTermicosLanding() {
   return (
@@ -104,6 +111,24 @@ function TurnoExpressLanding() {
   );
 }
 
+function CalificadorLanding() {
+  return (
+    <>
+      <CalificadorHeroSection />
+      <TurnoExpressClientsSection />
+      <CalificadorProductsSection />
+      <CalificadorBenefitsSection />
+      <SecondaryCalificadorProductsSection />
+      <StepsSectionCalificador />
+      <CalificadorIndustriesSection />
+      <CalificadorRelatedProducts />
+      <ContactForm />
+      <WppBtn />
+      <Footer />
+    </>
+  );
+}
+
 function App() {
   return (
     // Envuelve todo en LogosProvider para tener acceso al contexto
@@ -121,6 +146,7 @@ function App() {
             path="/turnero-turnoexpress"
             element={<TurnoExpressLanding />}
           />
+          <Route path="/calificador" element={<CalificadorLanding />} />
         </Routes>
       </Router>
     </LogosProvider>

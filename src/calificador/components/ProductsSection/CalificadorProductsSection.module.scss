@@ -1,0 +1,11 @@
+@use "../../../styles/components/productsSection" as *;
+
+.products__section {
+  // Variaciones específicas para `Calificador`
+
+  .products__container {
+    img {
+      height: 500px;
+    }
+  }
+}

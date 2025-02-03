@@ -64,7 +64,7 @@ function TurnoExpressRelatedProducts() {
               src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1738349925/xcbtnf1wh1en4taujsdx_avnfkj.webp"
               alt="icono pulgar arriba"
             />
-            <p>precios justos</p>
+            <p>Precios Justos</p>
           </li>
           <li>
             <img
@@ -80,15 +80,15 @@ function TurnoExpressRelatedProducts() {
               src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1738349921/jg3stajnopybox4xxdkd_favvxk.webp"
               alt="icono de excelencia"
             />
-            <p>Excelente garantía</p>
+            <p>Garantía superior</p>
           </li>
           <li>
             <img
               loading="lazy"
               src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1738349925/ynuxn64wkw3nkqxl4tvo_lwqzi0.webp"
-              alt="icono de envíos a todo el país"
+              alt="icono de Envíos en Colombia y Latinoamerica"
             />
-            <p>Envíos a todo el país</p>
+            <p>Envíos en Colombia y Latinoamerica</p>
           </li>
         </ul>
       </div>

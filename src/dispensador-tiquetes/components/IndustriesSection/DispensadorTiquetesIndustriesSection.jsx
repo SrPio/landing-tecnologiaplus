@@ -4,7 +4,8 @@ function DispensadorTiquetesIndustriesSection() {
   return (
     <section className={style.industries__section}>
       <h2>
-        NUESTRO DISPENSADOR DE ROLLOS DE TURNOS ADAPTABLE A TODOS LOS SECTORES
+        Nuestros Dispensadores de tunos funcionan en todos los sectores, desde
+        el sector salud hasta oficinas y comercios.
       </h2>
       <ul>
         <li>

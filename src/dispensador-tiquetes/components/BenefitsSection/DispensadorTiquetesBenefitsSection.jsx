@@ -15,7 +15,9 @@ function DispensadorTiquetesBenefitsSection() {
             src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1738424672/icono_1_2x-8_gnq6al.webp"
             alt="icono de agilidad en turnos"
           />
-          Agilidad y orden de los turnos.
+          Control total de los turnos:
+          <br />
+          permite a tu equipo ofrecer mejor servicio
         </li>
         <li>
           <img
@@ -23,7 +25,9 @@ function DispensadorTiquetesBenefitsSection() {
             src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1738424673/icono_2_2x-8_1_rpqhcz.webp"
             alt="icono de reloj y dinero"
           />
-          Ahorra tiempo y recursos.
+          Elimina filas:
+          <br />
+          evitando largas esperas y mejorando la organización del servicio.
         </li>
         <li>
           <img
@@ -31,7 +35,7 @@ function DispensadorTiquetesBenefitsSection() {
             src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1738424675/icono_3_2x-8_qsgnsv.webp"
             alt="icono de tipos de cara feliz"
           />
-          Mejora la satisfacción del cliente.
+          Mejor experiencia de servicio: porque tus clientes lo merecen
         </li>
       </ul>
     </section>

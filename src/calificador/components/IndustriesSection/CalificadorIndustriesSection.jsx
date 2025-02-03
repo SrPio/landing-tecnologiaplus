@@ -14,7 +14,7 @@ function CalificadorIndustriesSection() {
         <li>
           <img
             loading="lazy"
-            src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1738605624/oficinas_2x-8_jdbpk9.jpg"
+            src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1738615986/oficinas_2x-8_ybubhb.webp"
             alt="icono de oficinas"
           />
           <p>Oficinas</p>
@@ -30,7 +30,7 @@ function CalificadorIndustriesSection() {
         <li>
           <img
             loading="lazy"
-            src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1738605624/otras_insdustrias_2x-8_junbgu.jpg"
+            src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1738615995/otras_industrias_2x-8_jwvjrm.webp"
             alt="icono de otras industrias"
           />
           <p>Otras industrias</p>

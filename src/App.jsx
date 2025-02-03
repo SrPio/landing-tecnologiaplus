@@ -41,6 +41,12 @@ import CalificadorIndustriesSection from "./calificador/components/IndustriesSec
 import CalificadorRelatedProducts from "./calificador/components/RelatedProducts/CalificadorRelatedProducts";
 import StepsSectionCalificador from "./calificador/components/StepsSection/StepsSectionCalificador";
 import CalificadorProductsSection from "./calificador/components/ProductsSection/CalificadorProductsSection";
+import EncuestaVirtualHeroSection from "./encuesta-vitual/components/HeroSection/EncuestaVirtualHeroSection";
+import EncuestaVirtualProductsSection from "./encuesta-vitual/components/ProductsSection/EncuestaVirtualProductsSection";
+import EncuestaVirtualBenefitsSection from "./encuesta-vitual/components/BenefitsSection/EncuestaVirtualBenefitsSection";
+import SecondaryEncuestaVirtualProductsSection from "./encuesta-vitual/components/SecondaryProductsSection/SecondaryEncuestaVirtualProductsSection";
+import EncuestaVirtualIndustriesSection from "./encuesta-vitual/components/IndustriesSection/EncuestaVirtualIndustriesSection";
+import EncuestaVirtualRelatedProducts from "./encuesta-vitual/components/RelatedProducts/EncuestaVirtualRelatedProducts";
 
 function RollosTermicosLanding() {
   return (
@@ -129,6 +135,23 @@ function CalificadorLanding() {
   );
 }
 
+function EncuestaVirtualLanding() {
+  return (
+    <>
+      <EncuestaVirtualHeroSection />
+      <TurnoExpressClientsSection />
+      <EncuestaVirtualProductsSection />
+      <EncuestaVirtualBenefitsSection />
+      <SecondaryEncuestaVirtualProductsSection />
+      <EncuestaVirtualIndustriesSection />
+      <EncuestaVirtualRelatedProducts />
+      <ContactForm />
+      <WppBtn />
+      <Footer />
+    </>
+  );
+}
+
 function App() {
   return (
     // Envuelve todo en LogosProvider para tener acceso al contexto
@@ -147,6 +170,10 @@ function App() {
             element={<TurnoExpressLanding />}
           />
           <Route path="/calificador" element={<CalificadorLanding />} />
+          <Route
+            path="/encuesta-virtual"
+            element={<EncuestaVirtualLanding />}
+          />
         </Routes>
       </Router>
     </LogosProvider>

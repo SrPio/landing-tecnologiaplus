@@ -47,6 +47,13 @@ import EncuestaVirtualBenefitsSection from "./encuesta-vitual/components/Benefit
 import SecondaryEncuestaVirtualProductsSection from "./encuesta-vitual/components/SecondaryProductsSection/SecondaryEncuestaVirtualProductsSection";
 import EncuestaVirtualIndustriesSection from "./encuesta-vitual/components/IndustriesSection/EncuestaVirtualIndustriesSection";
 import EncuestaVirtualRelatedProducts from "./encuesta-vitual/components/RelatedProducts/EncuestaVirtualRelatedProducts";
+import EnfermeriaHeroSection from "./enfermeria/components/HeroSection/EnfermeriaHeroSection";
+import EnfermeriaProductsSection from "./enfermeria/components/ProductsSection/EnfermeriaProductsSection";
+import EnfermeriaBenefitsSection from "./enfermeria/components/BenefitsSection/EnfermeriaBenefitsSection";
+import EnfermeriaSecondaryProductsSection from "./enfermeria/components/SecondaryProductsSection/EnfermeriaSecondaryProductsSection";
+import StepsSectionEnfermeria from "./enfermeria/components/StepsSection/StepsSectionEnfermeria";
+import EnfermeriaIndustriesSection from "./enfermeria/components/IndustriesSection/EnfermeriaIndustriesSection";
+import EnfermeriaRelatedProducts from "./enfermeria/components/RelatedProducts/EnfermeriaRelatedProducts";
 
 function RollosTermicosLanding() {
   return (
@@ -152,6 +159,24 @@ function EncuestaVirtualLanding() {
   );
 }
 
+function EnfermeriaLanding() {
+  return (
+    <>
+      <EnfermeriaHeroSection />
+      <TurnoExpressClientsSection />
+      <EnfermeriaProductsSection />
+      <EnfermeriaBenefitsSection />
+      <EnfermeriaSecondaryProductsSection />
+      <StepsSectionEnfermeria />
+      <EnfermeriaIndustriesSection />
+      <EnfermeriaRelatedProducts />
+      <ContactForm />
+      <WppBtn />
+      <Footer />
+    </>
+  );
+}
+
 function App() {
   return (
     // Envuelve todo en LogosProvider para tener acceso al contexto
@@ -174,6 +199,7 @@ function App() {
             path="/encuesta-virtual"
             element={<EncuestaVirtualLanding />}
           />
+          <Route path="/enfermeria" element={<EnfermeriaLanding />} />
         </Routes>
       </Router>
     </LogosProvider>

@@ -4,16 +4,32 @@ function CalificadorProductsSection() {
   return (
     <section className={style.products__section}>
       <div className={style.products__container}>
-        <img
-          loading="lazy"
-          src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1738606958/654b6711-d006-47ef-9708-32d92634c5c7.png"
-          alt="Rollos de impresión"
-        />
-        <img
-          loading="lazy"
-          src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1738606975/2b3356f4-4bb8-4bbb-a534-a6c2166e05f9.png"
-          alt="Imagen de Impresora"
-        />
+        <div className={style.product__item}>
+          <img
+            loading="lazy"
+            src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1738679321/Group_1_fo9nmk.webp"
+            alt="Rollos de dispositivo calificador"
+          />
+          <div className={style.btn__container}>
+            <p className={style.selling__counter}>0000 vendidos</p>
+            <a className={style.card__btn} href="#">
+              Ver más
+            </a>
+          </div>
+        </div>
+        <div className={style.product__item}>
+          <img
+            loading="lazy"
+            src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1738678296/Group_2_fpyzaa.webp"
+            alt="Imagen de aviso de pared"
+          />
+          <div className={style.btn__container}>
+            <p className={style.selling__counter}>0000 vendidos</p>
+            <a className={style.card__btn} href="#">
+              Ver más
+            </a>
+          </div>
+        </div>
       </div>
     </section>
   );

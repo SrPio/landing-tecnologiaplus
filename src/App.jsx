@@ -54,6 +54,13 @@ import EnfermeriaSecondaryProductsSection from "./enfermeria/components/Secondar
 import StepsSectionEnfermeria from "./enfermeria/components/StepsSection/StepsSectionEnfermeria";
 import EnfermeriaIndustriesSection from "./enfermeria/components/IndustriesSection/EnfermeriaIndustriesSection";
 import EnfermeriaRelatedProducts from "./enfermeria/components/RelatedProducts/EnfermeriaRelatedProducts";
+import LlamadorMeserosHeroSection from "./llamador-meseros/components/HeroSection/LlamadorMeserosHeroSection";
+import LlamadorMeserosProductsSection from "./llamador-meseros/components/ProductsSection/LlamadorMeserosProductsSection";
+import LlamadorMeserosBenefitsSection from "./llamador-meseros/components/BenefitsSection/LlamadorMeserosBenefitsSection";
+import StepsSectionLlamadorMeseros from "./llamador-meseros/components/StepsSection/StepsSectionLlamadorMeseros";
+import LlamadorMeserosSecondaryProductsSection from "./llamador-meseros/components/SecondaryProductsSection/LlamadorMeserosSecondaryProductsSection";
+import LlamadorMeserosIndustriesSection from "./llamador-meseros/components/IndustriesSection/LlamadorMeserosIndustriesSection";
+import LlamadorMeserosRelatedProducts from "./llamador-meseros/components/RelatedProducts/LlamadorMeserosRelatedProducts";
 
 function RollosTermicosLanding() {
   return (
@@ -177,6 +184,24 @@ function EnfermeriaLanding() {
   );
 }
 
+function LlamadorMeserosLanding() {
+  return (
+    <>
+      <LlamadorMeserosHeroSection />
+      <TurnoExpressClientsSection />
+      <LlamadorMeserosProductsSection />
+      <LlamadorMeserosBenefitsSection />
+      <StepsSectionLlamadorMeseros />
+      <LlamadorMeserosSecondaryProductsSection />
+      <LlamadorMeserosIndustriesSection />
+      <LlamadorMeserosRelatedProducts />
+      <ContactForm />
+      <WppBtn />
+      <Footer />
+    </>
+  );
+}
+
 function App() {
   return (
     // Envuelve todo en LogosProvider para tener acceso al contexto
@@ -200,6 +225,10 @@ function App() {
             element={<EncuestaVirtualLanding />}
           />
           <Route path="/enfermeria" element={<EnfermeriaLanding />} />
+          <Route
+            path="/llamador-meseros"
+            element={<LlamadorMeserosLanding />}
+          />
         </Routes>
       </Router>
     </LogosProvider>

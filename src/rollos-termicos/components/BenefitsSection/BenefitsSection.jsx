@@ -15,9 +15,11 @@ function BenefitsSection() {
             src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1738349923/rijkjjxwhpa9hbvnj8ga_i2qgeg.webp"
             alt="icono de check"
           />
-          Variedad en tamaños y medidas:
-          <br />
-          perfectos para tickets, recibos y más.
+          <div>
+            Variedad en tamaños y medidas:
+            <br />
+            <span>perfectos para tickets, recibos y más.</span>
+          </div>
         </li>
         <li>
           <img
@@ -25,9 +27,11 @@ function BenefitsSection() {
             src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1738349925/za4ik6yfenohf4oquc0j_fdtqew.webp"
             alt="icono de calendario"
           />
-          Alta calidad de impresión:
-          <br />
-          Textos y gráficos claros en cada ticket.
+          <div>
+            Alta calidad de impresión:
+            <br />
+            <span>Textos y gráficos claros en cada ticket.</span>
+          </div>
         </li>
         <li>
           <img
@@ -35,9 +39,11 @@ function BenefitsSection() {
             src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1738349924/u2v3b0ngu177bi5byxcv_yckaaq.webp"
             alt="icono check"
           />
-          Compatibilidad:
-          <br />
-          Con impresoras térmicas multimarcas.
+          <div>
+            Compatibilidad:
+            <br />
+            <span>Con impresoras térmicas multimarcas.</span>
+          </div>
         </li>
       </ul>
     </section>

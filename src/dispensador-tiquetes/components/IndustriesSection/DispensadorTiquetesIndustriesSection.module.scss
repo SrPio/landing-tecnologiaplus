@@ -1,5 +1,9 @@
 @use "../../../styles/components/industriesSection" as *;
 
 .industries__section {
-  // Variaciones específicas para `rollos-turnos`
+  // Variaciones específicas para `dispensador-tiquetes`
+
+  h2 {
+    text-transform: none !important;
+  }
 }

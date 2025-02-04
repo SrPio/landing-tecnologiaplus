@@ -7,6 +7,15 @@
   ul {
     li {
       max-width: 800px;
+      font-size: 1.8rem;
+
+      > div {
+        display: flex;
+        flex-direction: column;
+        span {
+          font-size: 1.2rem;
+        }
+      }
     }
   }
 }

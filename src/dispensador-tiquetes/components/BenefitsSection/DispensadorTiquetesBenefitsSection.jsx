@@ -15,9 +15,11 @@ function DispensadorTiquetesBenefitsSection() {
             src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1738424672/icono_1_2x-8_gnq6al.webp"
             alt="icono de agilidad en turnos"
           />
-          Control total de los turnos:
-          <br />
-          permite a tu equipo ofrecer mejor servicio
+          <div>
+            Control total de los turnos:
+            <br />
+            <span>permite a tu equipo ofrecer mejor servicio</span>
+          </div>
         </li>
         <li>
           <img
@@ -25,9 +27,13 @@ function DispensadorTiquetesBenefitsSection() {
             src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1738424673/icono_2_2x-8_1_rpqhcz.webp"
             alt="icono de reloj y dinero"
           />
-          Elimina filas:
-          <br />
-          evitando largas esperas y mejorando la organización del servicio.
+          <div>
+            Elimina filas:
+            <br />
+            <span>
+              evitando largas esperas y mejorando la organización del servicio.
+            </span>
+          </div>
         </li>
         <li>
           <img
@@ -35,7 +41,11 @@ function DispensadorTiquetesBenefitsSection() {
             src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1738424675/icono_3_2x-8_qsgnsv.webp"
             alt="icono de tipos de cara feliz"
           />
-          Mejor experiencia de servicio: porque tus clientes lo merecen
+          <div>
+            Mejor experiencia de servicio:
+            <br />
+            <span>porque tus clientes lo merecen</span>
+          </div>
         </li>
       </ul>
     </section>

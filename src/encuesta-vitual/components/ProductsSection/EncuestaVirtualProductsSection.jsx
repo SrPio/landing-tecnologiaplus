@@ -6,12 +6,12 @@ function EncuestaVirtualProductsSection() {
       <div className={style.products__container}>
         <img
           loading="lazy"
-          src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1738608372/caff5eea-d206-4262-bd00-f6706b31adda.png"
+          src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1738681738/Group_3_1_kawcef.webp"
           alt="Rollos de computador con encuesta virtual"
         />
         <img
           loading="lazy"
-          src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1738608727/96ed8c3c-e819-4e76-ae97-188ff6d2f29a.png"
+          src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1738681739/Group_4_1_h4asog.webp"
           alt="Imagen de celular con alerta en tiempo real"
         />
       </div>

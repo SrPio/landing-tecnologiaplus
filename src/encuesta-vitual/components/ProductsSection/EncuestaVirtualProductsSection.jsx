@@ -7,7 +7,7 @@ function EncuestaVirtualProductsSection() {
         <img
           loading="lazy"
           src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1738681738/Group_3_1_kawcef.webp"
-          alt="Rollos de computador con encuesta virtual"
+          alt="Imagen de computador con encuesta virtual"
         />
         <img
           loading="lazy"

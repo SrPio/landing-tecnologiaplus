@@ -5,8 +5,10 @@
   padding: 4rem;
   margin: -100px 5% 0;
 
-  display: flex;
-  justify-content: space-evenly;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  justify-items: center;
   align-items: center;
 
   border-radius: 20px;

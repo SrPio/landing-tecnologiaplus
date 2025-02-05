@@ -13,11 +13,16 @@
     top: 0;
     left: clamp(50px, 15vw, 400px);
 
-    @media (min-width: 500px) and (max-width: 1800px) {
+    @media (min-width: 500px) and (max-width: 1700px) {
       top: 0;
       height: auto !important;
       left: clamp(50px, 10vw, 100px);
     }
+    /* @media (min-width: 1701px) and (max-width: 1800px) {
+      top: 0;
+      height: auto !important;
+      left: clamp(50px, 5vw, 100px);
+    } */
   }
 
   .hero__text {
@@ -25,21 +30,24 @@
     top: 22%;
     right: clamp(50px, 15vw, 300px);
 
-    @media (min-width: 500px) and (max-width: 1800px) {
+    @media (min-width: 500px) and (max-width: 1700px) {
       top: 10%;
+    }
+    @media (min-width: 1701px) and (max-width: 1800px) {
+      top: 22%;
     }
 
     h1 {
       font-size: 2.5rem;
 
-      @media (min-width: 500px) and (max-width: 1800px) {
+      @media (min-width: 500px) and (max-width: 1700px) {
         font-size: 2rem !important;
       }
     }
 
     p {
       font-size: 1.5rem;
-      @media (min-width: 500px) and (max-width: 1800px) {
+      @media (min-width: 500px) and (max-width: 1700px) {
         font-size: 1rem !important;
       }
     }

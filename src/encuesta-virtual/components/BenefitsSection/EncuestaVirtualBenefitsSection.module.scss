@@ -7,27 +7,28 @@
   z-index: 2;
 
   .benefits__title {
-    font-size: 3.5rem;
+    font-size: 3rem;
   }
 
   ul {
     display: flex;
     flex-direction: row;
-    align-items: center;
+    align-items: baseline;
 
     li {
       display: flex;
       flex-direction: column;
+      gap: 1.5rem;
 
       font-size: 1rem;
 
       img {
-        width: 200px;
+        width: 210px;
       }
     }
 
     li:nth-child(2) img {
-      width: 80px;
+      height: 170px;
     }
 
     li:nth-child(3) img {

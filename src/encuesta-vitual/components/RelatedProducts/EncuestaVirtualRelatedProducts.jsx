@@ -3,6 +3,7 @@ import style from "./EncuestaVirtualRelatedProducts.module.scss";
 function EncuestaVirtualRelatedProducts() {
   return (
     <section className={style.related__products}>
+      <h2>Productos similares</h2>
       <div className={style.related__products__container}>
         <div className={style.related__products__card}>
           <div className={style.card__info}>

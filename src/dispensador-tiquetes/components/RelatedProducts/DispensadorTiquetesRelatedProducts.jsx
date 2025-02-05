@@ -3,6 +3,7 @@ import style from "./DispensadorTiquetesRelatedProducts.module.scss";
 function DispensadorTiquetesRelatedProducts() {
   return (
     <section className={style.related__products}>
+      <h2>Productos similares</h2>
       <div className={style.related__products__container}>
         <div className={style.related__products__card}>
           <div className={style.card__info}>

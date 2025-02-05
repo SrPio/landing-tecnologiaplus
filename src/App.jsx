@@ -61,6 +61,12 @@ import StepsSectionLlamadorMeseros from "./llamador-meseros/components/StepsSect
 import LlamadorMeserosSecondaryProductsSection from "./llamador-meseros/components/SecondaryProductsSection/LlamadorMeserosSecondaryProductsSection";
 import LlamadorMeserosIndustriesSection from "./llamador-meseros/components/IndustriesSection/LlamadorMeserosIndustriesSection";
 import LlamadorMeserosRelatedProducts from "./llamador-meseros/components/RelatedProducts/LlamadorMeserosRelatedProducts";
+import LocalizadoresHeroSection from "./localizadores/components/HeroSection/LocalizadoresHeroSection";
+import LocalizadoresProductsSection from "./localizadores/components/ProductsSection/LocalizadoresProductsSection";
+import LocalizadoresBenefitsSection from "./localizadores/components/BenefitsSection/LocalizadoresBenefitsSection";
+import LocalizadoresSecondaryProductsSection from "./localizadores/components/SecondaryProductsSection/LocalizadoresSecondaryProductsSection";
+import LocalizadoresRelatedProducts from "./localizadores/components/RelatedProducts/LocalizadoresRelatedProducts";
+import LocalizadoresIndustriesSection from "./localizadores/components/IndustriesSection/LocalizadoresIndustriesSection";
 
 function RollosTermicosLanding() {
   return (
@@ -202,6 +208,23 @@ function LlamadorMeserosLanding() {
   );
 }
 
+function LocalizadoresLanding() {
+  return (
+    <>
+      <LocalizadoresHeroSection />
+      <TurnoExpressClientsSection />
+      <LocalizadoresProductsSection />
+      <LocalizadoresBenefitsSection />
+      <LocalizadoresSecondaryProductsSection />
+      <LocalizadoresIndustriesSection />
+      <LocalizadoresRelatedProducts />
+      <ContactForm />
+      <WppBtn />
+      <Footer />
+    </>
+  );
+}
+
 function App() {
   return (
     // Envuelve todo en LogosProvider para tener acceso al contexto
@@ -229,6 +252,7 @@ function App() {
             path="/llamador-meseros"
             element={<LlamadorMeserosLanding />}
           />
+          <Route path="/localizadores" element={<LocalizadoresLanding />} />
         </Routes>
       </Router>
     </LogosProvider>

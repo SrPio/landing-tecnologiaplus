@@ -18,6 +18,7 @@
       color: #606060;
       margin: 2rem 0;
     }
+
     .products__card__container {
       display: flex;
       justify-content: center;
@@ -35,12 +36,21 @@
           margin-bottom: 1rem;
         }
 
+        &:nth-child(1) img {
+          height: 320px;
+        }
+
+        &:nth-child(2) img {
+          margin-top: 20px;
+        }
+
         h3 {
           color: #606060;
           font-size: 1rem;
         }
         p {
           color: #606060;
+          font-size: 1.5rem;
         }
 
         .card__btn {

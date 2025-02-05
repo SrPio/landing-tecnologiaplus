@@ -7,8 +7,6 @@ function TurnoExpressBenefitsSection() {
         BENEFICIOS
         <br />
         DESTACADOS
-        <br />
-        DE TURNOS?
       </h2>
       <ul>
         <li>

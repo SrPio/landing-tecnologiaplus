@@ -9,7 +9,7 @@ function SecondaryTurnoExpressProductsSection() {
             <h2>Dispensador de tiquetes</h2>
             <img
               loading="lazy"
-              src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1738349924/vrshbuavglhjzjks2tbv_hyzsf9.webp"
+              src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1738789798/Dispensador_2x-8_soj9hp.webp"
               alt="imagen de dispensador de turnos"
             />
             <p>686 vendidos</p>

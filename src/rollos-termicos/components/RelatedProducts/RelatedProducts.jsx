@@ -42,7 +42,11 @@ function RelatedProducts() {
           <div className={style.card__info}>
             <div className={style.card__text}>
               <h3>Dispensador de tiquetes</h3>
-              <p>Complemento práctico para tomar el turno.</p>
+              <p>
+                Complemento práctico para
+                <br />
+                tomar el turno.
+              </p>
             </div>
             <img
               loading="lazy"

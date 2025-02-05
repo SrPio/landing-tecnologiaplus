@@ -49,10 +49,10 @@ extensor EX1"
               <br />
               extensor EX1
             </h3>
-            <p>198 vendidos</p>
             <a className={style.card__btn} href="#">
               Ver más
             </a>
+            <p>198 vendidos</p>
           </div>
         </div>
         <h2>Opciones para recibir llamados</h2>
@@ -62,7 +62,7 @@ extensor EX1"
           <div className={style.card}>
             <img
               loading="lazy"
-              src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1738685536/Pantalla_T1B_2x-8_cwqnm6.webp"
+              src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1738786629/Turnero_T1B_2x-8_cm2iev.webp"
               alt="imagen de Pantalla T1B"
             />
             <h3>Pantalla T1B</h3>
@@ -77,7 +77,7 @@ extensor EX1"
               src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1738685534/pantalla_T6_2x-8_zm3lja.webp"
               alt="imagen de Pantalla T6"
             />
-            <h3>Turnero T3 - con logo</h3>
+            <h3>Pantalla T6</h3>
             <p>142 vendidos</p>
             <a className={style.card__btn} href="#">
               Ver más

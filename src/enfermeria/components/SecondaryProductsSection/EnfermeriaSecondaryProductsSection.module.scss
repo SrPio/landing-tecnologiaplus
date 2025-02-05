@@ -18,6 +18,7 @@
     }
     .products__card__container {
       display: flex;
+      align-items: baseline;
       gap: 4rem;
       .card {
         display: flex;
@@ -36,6 +37,11 @@
           font-size: 1.5rem;
           line-height: 1.2;
           text-align: center;
+          height: 3.4rem;
+        }
+
+        &:nth-child(2) h3 {
+          line-height: 50px;
         }
         p {
           color: #6146a6;
@@ -65,6 +71,14 @@
       gap: 4rem 2rem;
 
       .card {
+        h3 {
+          height: auto;
+          line-height: 1.2;
+        }
+
+        &:nth-child(2) h3 {
+          line-height: inherit;
+        }
         img {
           height: 200px;
         }

@@ -67,6 +67,12 @@ import LocalizadoresBenefitsSection from "./localizadores/components/BenefitsSec
 import LocalizadoresSecondaryProductsSection from "./localizadores/components/SecondaryProductsSection/LocalizadoresSecondaryProductsSection";
 import LocalizadoresRelatedProducts from "./localizadores/components/RelatedProducts/LocalizadoresRelatedProducts";
 import LocalizadoresIndustriesSection from "./localizadores/components/IndustriesSection/LocalizadoresIndustriesSection";
+import TurnoMasterHeroSection from "./turnomaster/components/HeroSection/TurnoMasterHeroSection";
+import TurnoMasterProductsSection from "./turnomaster/components/ProductsSection/TurnoMasterProductsSection";
+import TurnoMasterBenefitsSection from "./turnomaster/components/BenefitsSection/TurnoMasterBenefitsSection";
+import SecondaryTurnoMasterProductsSection from "./turnomaster/components/SecondaryProductsSection/SecondaryTurnoMasterProductsSection";
+import TurnoMasterIndustriesSection from "./turnomaster/components/IndustriesSection/TurnoMasterIndustriesSection";
+import TurnoMasterRelatedProducts from "./turnomaster/components/RelatedProducts/TurnoMasterRelatedProducts";
 
 function RollosTermicosLanding() {
   return (
@@ -225,6 +231,23 @@ function LocalizadoresLanding() {
   );
 }
 
+function TurnoMasterLanding() {
+  return (
+    <>
+      <TurnoMasterHeroSection />
+      <TurnoExpressClientsSection />
+      <TurnoMasterProductsSection />
+      <TurnoMasterBenefitsSection />
+      <SecondaryTurnoMasterProductsSection />
+      <TurnoMasterIndustriesSection />
+      <TurnoMasterRelatedProducts />
+      <ContactForm />
+      <WppBtn />
+      <Footer />
+    </>
+  );
+}
+
 function App() {
   return (
     // Envuelve todo en LogosProvider para tener acceso al contexto
@@ -253,6 +276,7 @@ function App() {
             element={<LlamadorMeserosLanding />}
           />
           <Route path="/localizadores" element={<LocalizadoresLanding />} />
+          <Route path="/turnomaster" element={<TurnoMasterLanding />} />
         </Routes>
       </Router>
     </LogosProvider>

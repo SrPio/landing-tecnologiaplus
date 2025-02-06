@@ -17,7 +17,11 @@ function LocalizadoresIndustriesSection() {
             src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1738694400/restaurantes_2x-8_lpqdzj.webp"
             alt="icono de Restaurantes"
           />
-          <p>Zona de comidas autoservicio</p>
+          <p>
+            Zona de comidas
+            <br />
+            autoservicio
+          </p>
         </li>
         <li>
           <img

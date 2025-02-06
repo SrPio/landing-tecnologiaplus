@@ -9,7 +9,7 @@ function LlamadorMeserosHeroSection() {
         <img
           loading="lazy"
           className={styles.hero__img}
-          src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1738694982/Group_10_reqhii.webp"
+          src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1738804065/nueva_ppal_2x-8_kg8gd9.webp"
           alt="imagen de llamador de personal"
         />
 

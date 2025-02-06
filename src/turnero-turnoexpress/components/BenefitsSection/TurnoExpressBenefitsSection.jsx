@@ -15,7 +15,7 @@ function TurnoExpressBenefitsSection() {
             src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1738431751/icono_1_2x-8_zw5neg.webp"
             alt="icono de sonido"
           />
-          Alarma sonora.
+          Sonido para anunciar el turno
         </li>
         <li>
           <img
@@ -23,8 +23,9 @@ function TurnoExpressBenefitsSection() {
             src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1738431754/icono_2_2x-8_vktxnl.webp"
             alt="icono de conectividad"
           />
-          Inalámbrico, entre pantalla
-          <br />y controles.
+          Cero cables, Conexión inalámbrica
+          <br />
+          entre pantalla y controles.
         </li>
         <li>
           <img
@@ -32,7 +33,9 @@ function TurnoExpressBenefitsSection() {
             src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1738431752/icono_3_2x-8_ypc1eu.webp"
             alt="icono de tipos de pantalla anti reflejo"
           />
-          Pantalla antireflejo.
+          Visibilidad clara desde cualquier
+          <br />
+          ángulo, sin reflejos molestos.
         </li>
       </ul>
     </section>

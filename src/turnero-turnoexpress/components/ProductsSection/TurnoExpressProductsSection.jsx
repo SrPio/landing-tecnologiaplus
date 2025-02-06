@@ -4,7 +4,7 @@ function TurnoExpressProductsSection() {
   return (
     <section className={style.products__section}>
       <h2 className={style.products__title}>
-        Una pantalla para cada necesidad
+        Una Pantalla de Turnos para cada Necesidad
       </h2>
       <div className={style.products__container}>
         <div className={style.products__card__container}>
@@ -57,7 +57,7 @@ function TurnoExpressProductsSection() {
             </a>
           </div>
         </div>
-        <h2>Tuneros personalizados</h2>
+        <h2>Turneros Digitales Personalizados</h2>
         <div className={style.products__card__container}>
           <div className={style.card}>
             <img

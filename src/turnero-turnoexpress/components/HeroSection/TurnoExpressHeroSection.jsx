@@ -14,12 +14,12 @@ function TurnoExpressHeroSection() {
         />
 
         <div className={styles.hero__text}>
-          <h1>Lorem ipsum dolor sit</h1>
-          <p>
-            Lorem ipsum dolor sit amet,
+          <h1>
+            Turnero digital:
             <br />
-            consectetuer adipiscing elit,
-          </p>
+            ADIOS A LAS FILAS
+          </h1>
+          <p>Agilidad y orden en cada turno.</p>
           <a className={styles.hero__btn} href="#">
             Ver más
           </a>

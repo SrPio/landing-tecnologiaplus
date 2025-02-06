@@ -3,13 +3,7 @@ import style from "./TurnoExpressIndustriesSection.module.scss";
 function TurnoExpressIndustriesSection() {
   return (
     <section className={style.industries__section}>
-      <h2>
-        NUESTRO SISTEMA DE
-        <br />
-        TURNOS ADAPTABLE A
-        <br />
-        TODOS LOS SECTORES
-      </h2>
+      <h2>Nuestro Turnero Digital se adapta a Todos los sectores</h2>
       <ul>
         <li>
           <img

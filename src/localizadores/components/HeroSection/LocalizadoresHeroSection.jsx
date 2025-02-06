@@ -9,7 +9,7 @@ function LocalizadoresHeroSection() {
         <img
           loading="lazy"
           className={styles.hero__img}
-          src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1738765361/Imagen_ppal_2x-100_y5sxwo.webp"
+          src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1738854778/Imagen_ppal_2x-8_lzcwgu_abb7f5.webp"
           alt="imagen de localizadores"
         />
 

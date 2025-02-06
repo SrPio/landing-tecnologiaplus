@@ -30,7 +30,7 @@ function LocalizadoresBenefitsSection() {
         <li>
           <img
             loading="lazy"
-            src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1738765361/icono_3_2x-100_ux1sy6.webp"
+            src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1738851894/icono_3_2x-8_1_nftdzj.webp"
             alt="icono de medalla de excelencia"
           />
           Material resistente

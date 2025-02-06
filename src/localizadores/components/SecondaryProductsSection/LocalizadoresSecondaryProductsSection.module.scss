@@ -2,8 +2,9 @@
 
 .products__section {
   // Variaciones específicas para `enfermeria`
-  background-color: #fff;
-  padding-bottom: 3rem;
+  background: #fff;
+  padding-bottom: 0;
+  margin-top: 4rem;
 
   .products__container {
     flex-direction: column;
@@ -58,11 +59,22 @@
           -o-border-radius: 2rem;
         }
       }
+
+      iframe {
+        width: 35vw;
+        height: auto;
+        aspect-ratio: 16 / 9;
+        border-radius: 12px;
+        -webkit-border-radius: 12px;
+        -moz-border-radius: 12px;
+        -ms-border-radius: 12px;
+        -o-border-radius: 12px;
+      }
     }
 
     .products__card__container__variant {
       display: flex;
-      align-items: flex-end;
+      align-items: center;
       justify-content: center;
       gap: 7rem;
 
@@ -71,26 +83,35 @@
         position: relative;
         > div {
           position: absolute;
-          top: 0;
+          top: 50px;
           left: -45px;
 
           display: flex;
           flex-direction: column;
           align-items: center;
         }
+
+        &:nth-child(3) > div {
+          position: absolute;
+          top: 65px;
+          left: -45px;
+
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+        }
+
         img {
-          height: 350px;
+          height: 360px;
         }
 
         &:nth-child(1) img {
-          margin-left: 55px;
+          margin-top: 55px;
+          margin-left: 25px;
         }
-        &:nth-child(2) img {
+
+        &:nth-child(3) img {
           height: 450px;
-        }
-        &:nth-child(2) div {
-          top: 105px;
-          left: -55px;
         }
 
         .card__btn {
@@ -99,4 +120,13 @@
       }
     }
   }
+}
+
+.bg__section {
+  background-color: #f3f3f3;
+}
+
+.video__section {
+  margin-top: 0;
+  padding-bottom: 3rem;
 }

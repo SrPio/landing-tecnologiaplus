@@ -8,12 +8,12 @@ function LocalizadoresProductsSection() {
       <div className={style.products__container}>
         <img
           loading="lazy"
-          src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1738765362/rec_v3_2x-100_yhsmuz.webp"
+          src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1738851946/rec_v3_2x-8_ehwkxo.webp"
           alt="Imagen de localizador Rec V3"
         />
         <img
           loading="lazy"
-          src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1738765361/cir_c2_2x-100_skiuoq.webp"
+          src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1738851948/cir_c2_2x-8_icgmcm.webp"
           alt="Imagen de localizador Cir C2"
         />
       </div>

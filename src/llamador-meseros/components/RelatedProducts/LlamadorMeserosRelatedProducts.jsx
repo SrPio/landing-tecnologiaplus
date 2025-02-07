@@ -14,7 +14,7 @@ function LlamadorMeserosRelatedProducts() {
             <img
               loading="lazy"
               src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1738431731/Localizadores_2x-8_niu5kx.webp"
-              alt="imagen de TurnoExpress"
+              alt="imagen de Localizadores"
             />
           </div>
           <p className={style.selling__counter}>0000 vendidos</p>

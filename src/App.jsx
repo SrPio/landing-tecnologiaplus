@@ -74,6 +74,10 @@ import SecondaryTurnoMasterProductsSection from "./turnomaster/components/Second
 import TurnoMasterIndustriesSection from "./turnomaster/components/IndustriesSection/TurnoMasterIndustriesSection";
 import TurnoMasterRelatedProducts from "./turnomaster/components/RelatedProducts/TurnoMasterRelatedProducts";
 import InfiniteSlider from "./components/sliders/InfiniteSlider";
+import HomeHeroSection from "./home/components/HeroSection/HomeHeroSection";
+import HomeProductsSection from "./home/components/ProductsSection/HomeProductsSection";
+import HomeBenefitsSection from "./home/components/BenefitsSection/HomeBenefitsSection";
+import HomeRecentPostsSection from "./home/components/RecentPost/HomeRecentPostsSection";
 
 function RollosTermicosLanding() {
   return (
@@ -249,6 +253,21 @@ function TurnoMasterLanding() {
   );
 }
 
+function HomeLanding() {
+  return (
+    <>
+      <HomeHeroSection />
+      <TurnoExpressClientsSection />
+      <HomeProductsSection />
+      <HomeBenefitsSection />
+      <HomeRecentPostsSection />
+      <ContactForm />
+      <WppBtn />
+      <Footer />
+    </>
+  );
+}
+
 function App() {
   return (
     // Envuelve todo en LogosProvider para tener acceso al contexto
@@ -278,6 +297,7 @@ function App() {
           />
           <Route path="/localizadores" element={<LocalizadoresLanding />} />
           <Route path="/turnomaster" element={<TurnoMasterLanding />} />
+          <Route path="/home" element={<HomeLanding />} />
         </Routes>
       </Router>
     </LogosProvider>

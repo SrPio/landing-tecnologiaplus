@@ -73,6 +73,7 @@ import TurnoMasterBenefitsSection from "./turnomaster/components/BenefitsSection
 import SecondaryTurnoMasterProductsSection from "./turnomaster/components/SecondaryProductsSection/SecondaryTurnoMasterProductsSection";
 import TurnoMasterIndustriesSection from "./turnomaster/components/IndustriesSection/TurnoMasterIndustriesSection";
 import TurnoMasterRelatedProducts from "./turnomaster/components/RelatedProducts/TurnoMasterRelatedProducts";
+import InfiniteSlider from "./components/sliders/InfiniteSlider";
 
 function RollosTermicosLanding() {
   return (

@@ -56,6 +56,54 @@ export const LogosProvider = ({ children }) => {
       src: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1738349922/logos_clientes-06_uhv7u0_gc4hbe.svg",
       alt: "Logo Clinimed",
     },
+    {
+      src: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1738349921/logos_clientes-02_vu1bar_uhkadi.svg",
+      alt: "Logo Colmedica",
+    },
+    {
+      src: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1738349921/logos_clientes-04_g9qll7_necl9v.svg",
+      alt: "Logo Mac Pollo",
+    },
+    {
+      src: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1738349922/logos_clientes-05_cnxgbp_nkhgxh.svg",
+      alt: "Logo Cosechas",
+    },
+    {
+      src: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1738349922/logos_clientes-06_uhv7u0_gc4hbe.svg",
+      alt: "Logo Clinimed",
+    },
+    {
+      src: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1738349921/logos_clientes-02_vu1bar_uhkadi.svg",
+      alt: "Logo Colmedica",
+    },
+    {
+      src: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1738349921/logos_clientes-04_g9qll7_necl9v.svg",
+      alt: "Logo Mac Pollo",
+    },
+    {
+      src: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1738349922/logos_clientes-05_cnxgbp_nkhgxh.svg",
+      alt: "Logo Cosechas",
+    },
+    {
+      src: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1738349922/logos_clientes-06_uhv7u0_gc4hbe.svg",
+      alt: "Logo Clinimed",
+    },
+    {
+      src: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1738349921/logos_clientes-02_vu1bar_uhkadi.svg",
+      alt: "Logo Colmedica",
+    },
+    {
+      src: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1738349921/logos_clientes-04_g9qll7_necl9v.svg",
+      alt: "Logo Mac Pollo",
+    },
+    {
+      src: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1738349922/logos_clientes-05_cnxgbp_nkhgxh.svg",
+      alt: "Logo Cosechas",
+    },
+    {
+      src: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1738349922/logos_clientes-06_uhv7u0_gc4hbe.svg",
+      alt: "Logo Clinimed",
+    },
   ]);
 
   const [logosTurnos] = useState([

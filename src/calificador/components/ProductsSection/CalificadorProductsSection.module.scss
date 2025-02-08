@@ -3,7 +3,8 @@
 .products__section {
   // Variaciones específicas para `Calificador`
 
-  padding-bottom: 5rem;
+  padding-bottom: 8.5rem;
+  padding-top: 6rem;
 
   .products__container {
     margin-bottom: 0;
@@ -16,7 +17,7 @@
     .btn__container {
       position: relative;
       left: 70px;
-      top: -155px;
+      top: -125px;
 
       display: flex;
       flex-direction: column;

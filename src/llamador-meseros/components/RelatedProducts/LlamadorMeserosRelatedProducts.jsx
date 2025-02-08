@@ -9,7 +9,7 @@ function LlamadorMeserosRelatedProducts() {
           <div className={style.card__info}>
             <div className={style.card__text}>
               <h3>Localizadores</h3>
-              <p>Descripción pequeña aquí</p>
+              <p>Lleva tu autoservicio a otro nivel</p>
             </div>
             <img
               loading="lazy"

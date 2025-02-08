@@ -9,7 +9,7 @@ function TurnoExpressRelatedProducts() {
           <div className={style.card__info}>
             <div className={style.card__text}>
               <h3>TurnoMaster</h3>
-              <p>Descripción pequeña aquí</p>
+              <p>Digitaliza la gestión de turnos.</p>
             </div>
             <img
               loading="lazy"
@@ -26,7 +26,7 @@ function TurnoExpressRelatedProducts() {
           <div className={style.card__info}>
             <div className={style.card__text}>
               <h3>Rollos térmicos</h3>
-              <p>Descripción pequeña aquí</p>
+              <p>Perfectos para tickets, facturas y más.</p>
             </div>
             <img
               loading="lazy"
@@ -43,7 +43,7 @@ function TurnoExpressRelatedProducts() {
           <div className={style.card__info}>
             <div className={style.card__text}>
               <h3>Localizadores</h3>
-              <p>Descripción pequeña aquí</p>
+              <p>Lleva tu autoservicio a otro nivel</p>
             </div>
             <img
               loading="lazy"

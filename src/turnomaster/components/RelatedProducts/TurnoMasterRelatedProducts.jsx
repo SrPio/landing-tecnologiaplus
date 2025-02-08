@@ -9,7 +9,7 @@ function TurnoMasterRelatedProducts() {
           <div className={style.card__info}>
             <div className={style.card__text}>
               <h3>Rollos térmicos</h3>
-              <p>Descripción pequeña aquí</p>
+              <p>Perfectos para tickets, facturas y más.</p>
             </div>
             <img
               loading="lazy"

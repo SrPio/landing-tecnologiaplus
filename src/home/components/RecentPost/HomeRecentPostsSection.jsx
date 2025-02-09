@@ -1,10 +1,11 @@
 import BlogCard from "../../../components/Cards/Blog/BlogCard";
 import style from "./HomeRecentPostsSection.module.scss";
+import { IoIosArrowForward } from "react-icons/io";
 
 function HomeRecentPostsSection() {
   return (
     <section className={style.products__section}>
-      <h2>Productos</h2>
+      <h2>Publicaciones recientes</h2>
       <div className={style.products__container}>
         <BlogCard
           title="¿Cómo integrar un dispensador de
@@ -37,6 +38,10 @@ adipiscing elit, sed diam orem ipsum dol"
           link="#"
         />
       </div>
+      <a href="#" className={style.btn__go_to_blog}>
+        Visita nuestro blog
+        <IoIosArrowForward className={style.icon__btn} />
+      </a>
     </section>
   );
 }

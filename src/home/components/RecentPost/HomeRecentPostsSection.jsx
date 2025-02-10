@@ -12,7 +12,7 @@ function HomeRecentPostsSection() {
 turnos con tu sistema de gestión?"
           description="Lorem ipsum dolor sit amet, consectetuer
 adipiscing elit, sed diam orem ipsum dol"
-          imageSrc="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1738944980/imagen_ejemplo_blog_1_2x-8_lvtxvq.webp"
+          imageSrc="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1739206999/1_1_2x-8_vbgthg.png"
           altText="imagen de referencia"
           link="#"
         />
@@ -22,7 +22,7 @@ adipiscing elit, sed diam orem ipsum dol"
 inteligente y cómo funciona?"
           description="Lorem ipsum dolor sit amet, consectetuer
 adipiscing elit, sed diam orem ipsum dol"
-          imageSrc="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1738944979/imagen_ejemplo_blog_2_2x-8_cvcu6t.webp"
+          imageSrc="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1739206940/3_1_2x-8_znjln1.png"
           altText="imagen de referencia"
           link="#"
           customClass="custom__style__one"
@@ -33,7 +33,7 @@ adipiscing elit, sed diam orem ipsum dol"
 térmica y cómo usarlo en tu negocio?"
           description="Lorem ipsum dolor sit amet, consectetuer
 adipiscing elit, sed diam orem ipsum dol"
-          imageSrc="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1738944978/imagen_ejemplo_blog_3_2x-8_kz2jvy.webp"
+          imageSrc="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1739206967/2_1_2x-8_i8zygy.png"
           altText="imagen de referencia"
           link="#"
         />

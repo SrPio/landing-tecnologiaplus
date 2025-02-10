@@ -7,42 +7,41 @@ function SecondaryHeader() {
   const [isVisible, setIsVisible] = useState(false);
 
   useEffect(() => {
-    const clientsObserver = new IntersectionObserver(
-      ([entry]) => {
-        if (entry.isIntersecting) {
+    const observer = new IntersectionObserver(
+      (entries) => {
+        let isHeroVisible = false;
+        let isClientsVisible = false;
+
+        entries.forEach((entry) => {
+          if (entry.target.id === "hero-section") {
+            isHeroVisible = entry.isIntersecting;
+          }
+          if (entry.target.id === "clients-section") {
+            isClientsVisible = entry.isIntersecting;
+          }
+        });
+
+        if (isHeroVisible) {
+          setIsVisible(false);
+        } else if (isClientsVisible) {
           setIsVisible(true);
         }
       },
-      { threshold: 0.1 }
+      {
+        threshold: 0.1,
+        rootMargin: "-10% 0px 0px 0px", // Ajuste para detectar mejor
+      }
     );
 
-    const heroObserver = new IntersectionObserver(
-      ([entry]) => {
-        if (entry.isIntersecting) {
-          setIsVisible(false);
-        }
-      },
-      { threshold: 0.1 }
-    );
-
-    const clientsTarget = document.querySelector("#clients-section");
     const heroTarget = document.querySelector("#hero-section");
+    const clientsTarget = document.querySelector("#clients-section");
 
-    if (clientsTarget) {
-      clientsObserver.observe(clientsTarget);
-    }
-
-    if (heroTarget) {
-      heroObserver.observe(heroTarget);
-    }
+    if (heroTarget) observer.observe(heroTarget);
+    if (clientsTarget) observer.observe(clientsTarget);
 
     return () => {
-      if (clientsTarget) {
-        clientsObserver.unobserve(clientsTarget);
-      }
-      if (heroTarget) {
-        heroObserver.unobserve(heroTarget);
-      }
+      if (heroTarget) observer.unobserve(heroTarget);
+      if (clientsTarget) observer.unobserve(clientsTarget);
     };
   }, []);
 

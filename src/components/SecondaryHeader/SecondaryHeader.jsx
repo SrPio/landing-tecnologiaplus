@@ -29,7 +29,7 @@ function SecondaryHeader() {
       },
       {
         threshold: 0.1,
-        rootMargin: "-10% 0px 0px 0px", // Ajuste para detectar mejor
+        rootMargin: "-50% 0px 0px 0px", // Ajuste para detectar mejor
       }
     );
 

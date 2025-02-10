@@ -6,6 +6,11 @@
   .products__container {
     flex-direction: column;
     align-items: center;
+    margin-bottom: 0;
+
+    > p {
+      margin-top: 25px;
+    }
   }
 
   .card__btn {

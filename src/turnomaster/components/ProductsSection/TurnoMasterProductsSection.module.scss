@@ -3,6 +3,8 @@
 .products__section {
   // Variaciones específicas para `turno-master`
 
+  padding-bottom: 2rem;
+
   p {
     font-size: 2rem;
     font-weight: 400;
@@ -10,12 +12,13 @@
   }
 
   .card__btn {
+    margin-top: 3rem;
     cursor: pointer;
     font-weight: 600;
-    background: #6f3bb4;
+    background: #ac00ff;
     width: max-content;
     color: #fff;
-    font-size: 1rem;
+    font-size: 1.2rem;
     padding: 0.2rem 1rem;
     border-radius: 2rem;
     -webkit-border-radius: 2rem;
@@ -24,10 +27,10 @@
     -o-border-radius: 2rem;
   }
   .products__container {
-    margin-bottom: 0;
+    margin-top: 4rem;
     gap: 4rem;
     img {
-      height: 500px;
+      height: 410px;
       padding: 1rem;
     }
   }

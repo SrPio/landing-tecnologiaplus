@@ -3,8 +3,7 @@ import style from "./TurnoMasterProductsSection.module.scss";
 function TurnoMasterProductsSection() {
   return (
     <section className={style.products__section}>
-      <h2>Más de 1.000 restaurantes usan nuetros localizadores</h2>
-      <p>Elige entre nuestras opciones</p>
+      <h2>Varias formas de solicitar el turno</h2>
       <a className={style.card__btn} href="#">
         ¡Quiero más información!
       </a>

@@ -130,7 +130,7 @@ function LlamadorMeserosSecondaryProductsSection() {
             <div className={style.card}>
               <img
                 loading="lazy"
-                src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1738685536/Pantalla_T1B_2x-8_cwqnm6.webp"
+                src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1739197744/Turnero_T1B_2x-8_1_1_opvowd.webp"
                 alt="imagen del Pantalla de 1 llamado"
               />
               <h3>Pantalla de 1 llamado</h3>

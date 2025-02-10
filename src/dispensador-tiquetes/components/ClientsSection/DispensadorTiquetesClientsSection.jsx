@@ -5,7 +5,7 @@ import LogosCarousel from "../../../components/sliders/LogosCarousel";
 import InfiniteSlider from "../../../components/sliders/InfiniteSlider";
 
 function DispensadorTiquetesClientsSection() {
-  const { logosTermicos } = useLogos();
+  const { logosDispensadorTiquetes } = useLogos();
 
   return (
     <section id="clients-section" className={style.clients__section}>
@@ -15,7 +15,7 @@ function DispensadorTiquetesClientsSection() {
         Turnos.
       </p>
       <div className={style.clients__container}>
-        <InfiniteSlider logos={logosTermicos} />
+        <InfiniteSlider logos={logosDispensadorTiquetes} />
       </div>
     </section>
   );

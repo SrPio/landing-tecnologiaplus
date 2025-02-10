@@ -78,6 +78,12 @@ import HomeHeroSection from "./home/components/HeroSection/HomeHeroSection";
 import HomeProductsSection from "./home/components/ProductsSection/HomeProductsSection";
 import HomeBenefitsSection from "./home/components/BenefitsSection/HomeBenefitsSection";
 import HomeRecentPostsSection from "./home/components/RecentPost/HomeRecentPostsSection";
+import CalificadorClientsSection from "./turnero-turnoexpress/components/ClientsSection/TurnoExpressClientsSection";
+import EnfermeriaClientsSection from "./enfermeria/components/ClientsSection/EnfermeriaClientsSection";
+import LlamadorMeserosClientsSection from "./llamador-meseros/components/ClientsSection/LlamadorMeserosClientsSection";
+import LocalizadoresClientsSection from "./localizadores/components/ClientsSection/LocalizadoresClientsSection";
+import TurnoMasterClientsSection from "./turnomaster/components/ClientsSection/TurnoMasterClientsSection";
+import HomeClientsSection from "./home/components/ClientsSection/HomeClientsSection";
 
 function RollosTermicosLanding() {
   return (
@@ -155,7 +161,7 @@ function CalificadorLanding() {
     <>
       <CalificadorHeroSection />
       <SecondaryHeader />
-      <TurnoExpressClientsSection />
+      <CalificadorClientsSection />
       <CalificadorProductsSection />
       <CalificadorBenefitsSection />
       <SecondaryCalificadorProductsSection />
@@ -174,7 +180,7 @@ function EncuestaVirtualLanding() {
     <>
       <EncuestaVirtualHeroSection />
       <SecondaryHeader />
-      <TurnoExpressClientsSection />
+      <EnfermeriaClientsSection />
       <EncuestaVirtualProductsSection />
       <EncuestaVirtualBenefitsSection />
       <SecondaryEncuestaVirtualProductsSection />
@@ -192,7 +198,7 @@ function EnfermeriaLanding() {
     <>
       <EnfermeriaHeroSection />
       <SecondaryHeader />
-      <TurnoExpressClientsSection />
+      <EnfermeriaClientsSection />
       <EnfermeriaProductsSection />
       <EnfermeriaBenefitsSection />
       <EnfermeriaSecondaryProductsSection />
@@ -211,7 +217,7 @@ function LlamadorMeserosLanding() {
     <>
       <LlamadorMeserosHeroSection />
       <SecondaryHeader />
-      <TurnoExpressClientsSection />
+      <LlamadorMeserosClientsSection />
       <LlamadorMeserosProductsSection />
       <LlamadorMeserosBenefitsSection />
       <StepsSectionLlamadorMeseros />
@@ -230,7 +236,7 @@ function LocalizadoresLanding() {
     <>
       <LocalizadoresHeroSection />
       <SecondaryHeader />
-      <TurnoExpressClientsSection />
+      <LocalizadoresClientsSection />
       <LocalizadoresProductsSection />
       <LocalizadoresBenefitsSection />
       <LocalizadoresSecondaryProductsSection />
@@ -248,7 +254,7 @@ function TurnoMasterLanding() {
     <>
       <TurnoMasterHeroSection />
       <SecondaryHeader />
-      <TurnoExpressClientsSection />
+      <TurnoMasterClientsSection />
       <TurnoMasterProductsSection />
       <TurnoMasterBenefitsSection />
       <SecondaryTurnoMasterProductsSection />
@@ -266,7 +272,7 @@ function HomeLanding() {
     <>
       <HomeHeroSection />
       <SecondaryHeader />
-      <TurnoExpressClientsSection />
+      <HomeClientsSection />
       <HomeProductsSection />
       <HomeBenefitsSection />
       <HomeRecentPostsSection />

@@ -40,7 +40,7 @@ para colgar en cuello"
           <div className={style.card}>
             <img
               loading="lazy"
-              src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1738685527/llamador_con_extensor_2x-8_ki73mi.webp"
+              src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1739198779/Recurso_32_2x-8_ifuwuz.webp"
               alt="imagen de Llamador con
 extensor EX1"
             />

@@ -32,6 +32,15 @@
           margin-bottom: 1rem;
         }
 
+        &:nth-child(2) img {
+          height: 250px;
+          padding-bottom: 0.7rem;
+        }
+
+        &:nth-child(3) img {
+          height: 250px;
+        }
+
         h3 {
           color: #606060;
           font-size: 1.5rem;

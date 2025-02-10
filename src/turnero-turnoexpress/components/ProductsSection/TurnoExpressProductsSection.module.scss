@@ -6,12 +6,17 @@
   .products__container {
     flex-direction: column;
     align-items: center;
+    margin-bottom: 0;
 
     h2 {
       font-size: 2.5rem;
       font-weight: 900;
       color: #606060;
       margin: 2rem 0;
+    }
+
+    > p {
+      margin-top: 25px;
     }
     .products__card__container {
       display: flex;
@@ -22,7 +27,7 @@
         align-items: center;
         justify-content: end;
         img {
-          height: 200px;
+          height: 150px;
           width: auto;
           object-fit: contain;
           margin-bottom: 1.5rem;

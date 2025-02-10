@@ -119,6 +119,7 @@ function DispensadorTiquetesLanding() {
   return (
     <>
       <DispensadorTiquetesHeroSection />
+      <SecondaryHeader />
       <DispensadorTiquetesClientsSection />
       <DispensadorTiquetesProductsSection />
       <DispensadorTiquetesBenefitsSection />
@@ -135,6 +136,7 @@ function TurnoExpressLanding() {
   return (
     <>
       <TurnoExpressHeroSection />
+      <SecondaryHeader />
       <TurnoExpressClientsSection />
       <TurnoExpressProductsSection />
       <TurnoExpressBenefitsSection />
@@ -152,6 +154,7 @@ function CalificadorLanding() {
   return (
     <>
       <CalificadorHeroSection />
+      <SecondaryHeader />
       <TurnoExpressClientsSection />
       <CalificadorProductsSection />
       <CalificadorBenefitsSection />
@@ -170,6 +173,7 @@ function EncuestaVirtualLanding() {
   return (
     <>
       <EncuestaVirtualHeroSection />
+      <SecondaryHeader />
       <TurnoExpressClientsSection />
       <EncuestaVirtualProductsSection />
       <EncuestaVirtualBenefitsSection />
@@ -187,6 +191,7 @@ function EnfermeriaLanding() {
   return (
     <>
       <EnfermeriaHeroSection />
+      <SecondaryHeader />
       <TurnoExpressClientsSection />
       <EnfermeriaProductsSection />
       <EnfermeriaBenefitsSection />
@@ -205,6 +210,7 @@ function LlamadorMeserosLanding() {
   return (
     <>
       <LlamadorMeserosHeroSection />
+      <SecondaryHeader />
       <TurnoExpressClientsSection />
       <LlamadorMeserosProductsSection />
       <LlamadorMeserosBenefitsSection />
@@ -223,6 +229,7 @@ function LocalizadoresLanding() {
   return (
     <>
       <LocalizadoresHeroSection />
+      <SecondaryHeader />
       <TurnoExpressClientsSection />
       <LocalizadoresProductsSection />
       <LocalizadoresBenefitsSection />
@@ -240,6 +247,7 @@ function TurnoMasterLanding() {
   return (
     <>
       <TurnoMasterHeroSection />
+      <SecondaryHeader />
       <TurnoExpressClientsSection />
       <TurnoMasterProductsSection />
       <TurnoMasterBenefitsSection />
@@ -257,6 +265,7 @@ function HomeLanding() {
   return (
     <>
       <HomeHeroSection />
+      <SecondaryHeader />
       <TurnoExpressClientsSection />
       <HomeProductsSection />
       <HomeBenefitsSection />

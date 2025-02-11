@@ -11,7 +11,6 @@ function HomeProductsSection() {
           description="Rapidez y agilidad para tus filas."
           imageSrc="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1738350028/TurnoExpress_2x-8_ri7zqh_xjz8bw.webp"
           altText="imagen de TurnoExpress"
-          soldCount="1023"
           link="#"
         />
 
@@ -20,7 +19,6 @@ function HomeProductsSection() {
           description="Digitaliza la gestión de turnos."
           imageSrc="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1738349924/TurnoMaster_2x-8_1_t4wh3f_ooru74.webp"
           altText="imagen de TurnoMaster"
-          soldCount="1023"
           link="#"
           customClass="custom__style__one"
         />
@@ -30,7 +28,6 @@ function HomeProductsSection() {
           description="Descripción pequeña aquí"
           imageSrc="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1738431731/Localizadores_2x-8_niu5kx.webp"
           altText="imagen de Localizadores"
-          soldCount="1023"
           link="#"
         />
 
@@ -39,7 +36,6 @@ function HomeProductsSection() {
           description="Descripción pequeña aquí"
           imageSrc="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1738944552/4_2x-8_2_zbywdq.webp"
           altText="imagen de Llamadores de meseros"
-          soldCount="1023"
           link="#"
           customClass="custom__style__four"
         />
@@ -49,7 +45,6 @@ function HomeProductsSection() {
           description="Descripción pequeña aquí"
           imageSrc="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1738596111/cuidamaster_2x-8_dlawzx.webp"
           altText="imagen de Llamado de enfermería"
-          soldCount="1023"
           link="#"
         />
 
@@ -58,7 +53,6 @@ function HomeProductsSection() {
           description="Descripción pequeña aquí"
           imageSrc="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1738607994/calificador_de_servicios_2x-8_pjnvol.webp"
           altText="imagen de Calificador de servicios"
-          soldCount="1023"
           link="#"
           customClass="custom__style__three"
         />
@@ -68,7 +62,6 @@ function HomeProductsSection() {
           description="Descripción pequeña aquí"
           imageSrc="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1738685536/Opinamaster_2x-8_sg1wyy.webp"
           altText="imagen de OpinaMaster"
-          soldCount="1023"
           link="#"
         />
 
@@ -78,7 +71,6 @@ function HomeProductsSection() {
 tomar el turno."
           imageSrc="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1738349966/dispensador_de_tiquetes_2x-8_qusuqr_fuxs8k.webp"
           altText="imagen de Dispensador de tiquetes"
-          soldCount="1023"
           link="#"
         />
 
@@ -87,7 +79,6 @@ tomar el turno."
           description="Organiza y mejora el servicio."
           imageSrc="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1738424725/Rollos_de_turnos_2x-8_tcxrnt.webp"
           altText="imagen de Rollos de turnos"
-          soldCount="1023"
           link="#"
         />
 
@@ -96,7 +87,6 @@ tomar el turno."
           description="Descripción pequeña aquí"
           imageSrc="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1738349920/image-1_1_ljyxis_qdsmdq.webp"
           altText="imagen de Rollos térmicos"
-          soldCount="1023"
           link="#"
           customClass="custom__style__five"
         />
@@ -106,7 +96,6 @@ tomar el turno."
           description="Descripción pequeña aquí"
           imageSrc="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1738945022/11_2x-8_lb72ht.webp"
           altText="imagen de Desarrollo de software"
-          soldCount="1023"
           link="#"
           customClass="custom__style__five"
         />
@@ -116,7 +105,6 @@ tomar el turno."
           description="Descripción pequeña aquí"
           imageSrc="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1738945024/12_2x-8_nnlbla.webp"
           altText="imagen de Soporte Técnico"
-          soldCount="1023"
           link="#"
           customClass="custom__style__six"
         />

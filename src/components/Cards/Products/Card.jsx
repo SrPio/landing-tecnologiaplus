@@ -27,7 +27,6 @@ const Card = ({
           className={style.card__image}
         />
       </div>
-      <p className={style.selling__counter}>{soldCount} vendidos</p>
       <a className={style.card__btn} href={link}>
         Ver más
       </a>

@@ -14,9 +14,9 @@
 
   .products__container {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 20px;
-    justify-items: center;
-    align-items: center;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 80px 40px;
+    width: 95vw; // Asegura que el contenedor ocupa todo el ancho de la pantalla
+    padding: 20px;
   }
 }

@@ -62,7 +62,7 @@ extensor EX1"
           <div className={style.card}>
             <img
               loading="lazy"
-              src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1738786629/Turnero_T1B_2x-8_cm2iev.webp"
+              src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1739197744/Turnero_T1B_2x-8_1_1_opvowd.webp"
               alt="imagen de Pantalla T1B"
             />
             <h3>Pantalla T1B</h3>
